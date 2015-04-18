@@ -1,27 +1,14 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
 body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body > article {
   max-width: 630px;
   margin: 0 auto;
   padding: 10px;
-  background: #EEE;
-  font-family: "Nanum Gothic", sans-serif;
 }
 
-body > h1 {
-  border-width: 0 0 1px 0;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.5);
-}
-
-body > h1 > small {
+body > article small {
   color: gray;
-}
-
-body img {
-  max-width: 100%;
-}
-
-body a {
-  text-decoration: none;
 }
