@@ -25,6 +25,7 @@ module.exports = {
     loaders: [
       { test: /\.md$/, loader: 'html!markdown' },
       { test: /\.png$/, loader: 'file' },
+      { test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file' },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') },
       { test: /\.styl$/, loader: ExtractTextPlugin.extract('style', 'css!stylus') },
       {

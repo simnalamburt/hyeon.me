@@ -23,6 +23,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "font-awesome": "^4.5.0",
     "github-markdown-css": "^2.2.1",
     "normalize.css": "^3.0.3",
     "react": "^0.14.7",
