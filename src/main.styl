@@ -4,10 +4,11 @@
 // Custom markdown style
 .markdown-body small { color: gray }
 
-width = 850px
+width = 890px
+padding = 20px
 
 header
-  padding: 20px
+  padding: 20px padding
   background: #fcfcfc
   display: flex
   justify-content: center
@@ -22,10 +23,10 @@ header
       border-radius: 10px
 
   article#header
-    max-width: width - profile-width - profile-padding
+    max-width: width - padding*2 - profile-width - profile-padding
     width: 100%
 
 article#main
   max-width: width
   margin: 0 auto
-  padding: 20px 0
+  padding: 20px padding
