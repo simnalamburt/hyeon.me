@@ -1,26 +1,31 @@
+// Always use border-box
 * { box-sizing: border-box }
 
+// Custom markdown style
+.markdown-body small { color: gray }
+
+width = 850px
+
 header
+  padding: 20px
+  background: #fcfcfc
   display: flex
+  justify-content: center
+  align-items: center
 
-  aside
-    padding: 20px 3vw 0 8vw
-    background: #EEE
-    text-align: right
-    min-height: 100vh
-
+  profile-width = 220px
+  profile-padding = 30px
+  a#me
+    padding-right: profile-padding
     img
-      max-width: 250px
-      border-radius: 10%
+      width: profile-width
+      border-radius: 10px
 
-    a
-      text-decoration: none
-      color: #4078c0
-
-  article
+  article#header
+    max-width: width - profile-width - profile-padding
     width: 100%
-    margin-left: 20px
-    padding: 40px 80px 20px 20px
 
-.markdown-body small
-  color: gray
+article#main
+  max-width: width
+  margin: 0 auto
+  padding: 20px 0
