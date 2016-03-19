@@ -6,6 +6,11 @@
 
 width = 890px
 padding = 20px
+mobile = 600px
+
+// Hide github corner on small screen
+@media (max-width: mobile)
+  .github-corner { display: none }
 
 header
   padding: 20px padding
@@ -21,6 +26,7 @@ header
     img
       width: profile-width
       border-radius: 10px
+    @media (max-width: mobile) { display: none }
 
   article#header
     max-width: width - padding*2 - profile-width - profile-padding
