@@ -20,13 +20,13 @@
 ### Featured works
 -   [Hard core GitHub<sup> <i class="fa fa-github"></i></sup> practitioner][gh]
 
-    [![](github.png)][gh]
+    [![](img/github.png)][gh]
 
 -   #### node-kakao <i class=private></i>
 
     KakaoTalk Client Library written in [node.js]
 
-    <img class=rounded src="kakao.png">
+    <img class=rounded src="img/kakao.png">
 
 -   #### [`obj-rs`][obj-rs]
 
@@ -36,29 +36,38 @@
       <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
     </div>][obj-rs]
 
--   #### [SoftwareRasterizer][sr]
+-   #### [SoftwareRasterizer][sr] <small>― C++, IntelTBB</small>
 
-    [<div style="border:#ccc 1px solid" class=rounded>
-      <img style="margin:-150px 0 -30px 0" src="https://raw.githubusercontent.com/simnalamburt/SoftwareRasterizer/master/sample.png">
-    </div>][sr]
+    Homebrewed 3D scene rasterizer without Hardware Acceleration
+
+    [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][fo]
+
+-   #### [FateOne][fo] <small>― WinAPI, C#</small>
+
+    Game helper made for my own perpose
+
+    [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
 
 [gh]: https://github.com/simnalamburt
 [obj-rs]: https://github.com/simnalamburt/obj-rs
 [node.js]: https://nodejs.org/
-[Rust]: https://rust-lang.org/
+[Rust]: https://www.rust-lang.org/
 [sr]: https://github.com/simnalamburt/SoftwareRasterizer
+[fo]: https://github.com/simnalamburt/FateOne
 
 ### Skills
 - #### System Programming <small>x86_64, C, C++, Rust</small>
     - 마이크로 최적화
-    - RBTree
-    - malloc()
+    - [simnalamburt/tiny-rbtree](https://github.com/simnalamburt/tiny-rbtree)
+    - [Homebrewed `malloc()`](https://github.com/simnalamburt/snucse.malloclab)
 
 - #### Windows Native Programming <small>WinAPI, COM, ATL</small>
-    > I was once hardcore win32 developer, don't want to do it anymore.
+    > I was once hardcore windows developer, and I don't do it anymore.
 
+    - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D)
     - [simnalamburt/SoftwareRasterizer](https://github.com/simnalamburt/SoftwareRasterizer)
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
+    - ActiveX Application <i class=private></i>
 
 
 
