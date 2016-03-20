@@ -1,3 +1,8 @@
+<font style="color:#BD0000">
+  <i class="fa fa-exclamation-triangle"></i> <b>이 이력서는 미완성입니다.</b><br>
+  거기, 보고계신 인사담당자님. <a href="javascript:history.back()">뒤로가기</a>를 눌러주세요.
+</font>
+
 ### Education
 - <small>2013 - now</small> [Seoul National University, Seoul, Korea][snu]
   - B.S. Student
