@@ -12,12 +12,8 @@
 - <small>2010 - 2013</small> 경기과학고등학교
   - <small>2011</small> 한국정보올림피아드 공모대회 동상
 
-[snu]: http://en.snu.ac.kr/
-[cse]: http://cse.snu.ac.kr/en
-[bacchus]: https://bacchus.snucse.org/about/
-[UPnL]: http://upnl.org/
-
-### Featured works
+Featured works
+--------
 -   [Hard core GitHub<sup> <i class="fa fa-github"></i></sup> practitioner][gh]
 
     [![](img/github.png)][gh]
@@ -48,64 +44,46 @@
 
     [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
 
-[gh]: https://github.com/simnalamburt
-[obj-rs]: https://github.com/simnalamburt/obj-rs
-[node.js]: https://nodejs.org/
-[Rust]: https://www.rust-lang.org/
-[sr]: https://github.com/simnalamburt/SoftwareRasterizer
-[fo]: https://github.com/simnalamburt/FateOne
+-   #### [dotfiles]
 
-### Skills
-- #### System Programming <small>x86_64, C, C++, Rust</small>
-    - 마이크로 최적화
+    [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
+
+Skills
+--------
+- #### System Programming <small>x86_64, C, C++, Rust *10*</small>
+    - [simnalamburt/obj-rs][obj-rs]
     - [simnalamburt/tiny-rbtree](https://github.com/simnalamburt/tiny-rbtree)
+    - [simnalamburt/SoftwareRasterizer][sr]
     - [Homebrewed `malloc()`](https://github.com/simnalamburt/snucse.malloclab)
+    - And countless works that I've done <i class=private></i>
 
-- #### Windows Native Programming <small>WinAPI, COM, ATL</small>
-    > I was once hardcore windows developer, and I don't do it anymore.
+- #### Windows Native Programming <small>WinAPI, COM, ATL *11*</small>
+    > I was once hardcore windows developer, but I'm not anymore.
 
     - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D)
-    - [simnalamburt/SoftwareRasterizer](https://github.com/simnalamburt/SoftwareRasterizer)
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
-    - ActiveX Application <i class=private></i>
+    - ActiveX Application <i class=shit></i>
 
+- #### .NET <small>C#, C++/CLI, Mono *11*</small>
+    - [simnalamburt/FateOne][fo]
 
+- #### Multi-core Programming <small>CUDA, OpenCL, OpenMP, MPI *12*</small>
+    - GPU accelerated [Othello AI] <i class=private></i>
+    - [PARSEC Benchmark Swaption](https://github.com/simnalamburt/snucse.swaptions)
 
-<br>
+- #### Computer Graphics <small>D3D, OpenGL *12*</small>
 
-- 오델로 AI 만들어봄
+- #### Server Administrator <small>Ubuntu, Arch *13*</small>
 
-- C# C++/CLI
+- #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
+    - PHP <i class=shit></i>
+    - AngularJS, React, Redux, ...
 
-- DirectX, OpenGL, Homemade Graphics
-    - EasyD3D
-    - SoftwareRasterizer
+- #### Android <small>Java, Kotlin</small>
 
-IntelTBB
+- #### Vim <small>*13*</small>
 
-Linux Server Admin
-루비
-파이썬
-js
-Java
-Kotlin
-OCaml
-
-AngularJS, React, Redux
-
-안드로이드
-
-PS
-
-- MPI, CUDA, OpenCL, OpenMP
-
-node
-
-Rust, Go
-
-VS, vim
-
-- 하드 깃헙 유저
+- #### Etc <small>OCaml</small>
 
 ### TODO
 - 프로젝트 링크 전부 걸기
@@ -115,11 +93,22 @@ VS, vim
 - [Fate / Another](https://github.com/simnalamburt/fate) *(2014-current)*
 - [vim-mundo](https://github.com/simnalamburt/vim-mundo)
 - [xmath](https://github.com/simnalamburt/xmath)
-- [EasyD3D](https://github.com/simnalamburt/EasyD3D)
 - snucheat
 
 #### School works
 - [Note-takings](https://github.com/simnalamburt/snucse)
 - [My UNIX-like system configuration files](https://github.com/simnalamburt/.dotfiles)
-- [Software Rasterizer](https://github.com/simnalamburt/SoftwareRasterizer)
 - [Hifive Pitalium Explorer](https://github.com/hifive-snu/hifive-test-explorer)
+
+[snu]: http://en.snu.ac.kr/
+[cse]: http://cse.snu.ac.kr/en
+[bacchus]: https://bacchus.snucse.org/about/
+[UPnL]: http://upnl.org/
+[gh]: https://github.com/simnalamburt
+[obj-rs]: https://github.com/simnalamburt/obj-rs
+[node.js]: https://nodejs.org/
+[Rust]: https://www.rust-lang.org/
+[sr]: https://github.com/simnalamburt/SoftwareRasterizer
+[fo]: https://github.com/simnalamburt/FateOne
+[dotfiles]: https://github.com/simnalamburt/.dotfiles
+[Othello AI]: https://en.wikipedia.org/wiki/Computer_Othello
