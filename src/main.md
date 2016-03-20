@@ -12,36 +12,56 @@
 [bacchus]: https://bacchus.snucse.org/about/
 [UPnL]: http://upnl.org/
 
-### Projects
+### Featured works
 -   [Hard core GitHub<sup> <i class="fa fa-github"></i></sup> practitioner][gh]
 
     [![](github.png)][gh]
 
--   카톡봇 <i class=private></i>
+-   #### node-kakao <i class=private></i>
+
+    KakaoTalk Client Library written in [node.js]
 
     <img class=rounded src="kakao.png">
 
--   [`obj-rs`][obj-rs]
+-   #### [`obj-rs`][obj-rs]
 
-    [<div class=rounded>
-      <img style="margin: -30px 0 -220px;" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
+    Wavefront OBJ parser written in [Rust]
+
+    [<div style="text-align:center;background:black" class=rounded>
+      <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
     </div>][obj-rs]
+
+-   #### [SoftwareRasterizer][sr]
+
+    [<div style="border:#ccc 1px solid" class=rounded>
+      <img style="margin:-150px 0 -30px 0" src="https://raw.githubusercontent.com/simnalamburt/SoftwareRasterizer/master/sample.png">
+    </div>][sr]
 
 [gh]: https://github.com/simnalamburt
 [obj-rs]: https://github.com/simnalamburt/obj-rs
+[node.js]: https://nodejs.org/
+[Rust]: https://rust-lang.org/
+[sr]: https://github.com/simnalamburt/SoftwareRasterizer
 
 ### Skills
-- x86 / C / C++
-    - 시프
+- #### System Programming <small>x86_64, C, C++, Rust</small>
     - 마이크로 최적화
     - RBTree
     - malloc()
 
+- #### Windows Native Programming <small>WinAPI, COM, ATL</small>
+    > I was once hardcore win32 developer, don't want to do it anymore.
+
+    - [simnalamburt/SoftwareRasterizer](https://github.com/simnalamburt/SoftwareRasterizer)
+    - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
+
+
+
+<br>
+
 - 오델로 AI 만들어봄
 
 - C# C++/CLI
-
-- WinAPI, COM, ATL
 
 - DirectX, OpenGL, Homemade Graphics
     - EasyD3D
