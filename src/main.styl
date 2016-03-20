@@ -4,6 +4,28 @@
 // Custom markdown style
 .markdown-body small { color: gray }
 
+// Rounded DOM
+.rounded
+  border-radius: 5px
+  overflow: hidden
+
+// 'private' button
+i.private:after
+  display: inline-block
+  padding: 4px 5px 3px
+  font-size: 11px
+  font-weight: 300
+  line-height: 11px
+  color: #a1882b
+  background-color: #ffefc6
+  border-radius: 3px
+  font-style: normal
+  content: 'PRIVATE'
+
+
+//
+// Layout
+//
 width = 890px
 padding = 20px
 mobile = 600px
@@ -36,3 +58,6 @@ article#main
   max-width: width
   margin: 0 auto
   padding: 20px padding
+
+  h3#projects + ul > li
+    max-width: 500px
