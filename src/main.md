@@ -1,11 +1,37 @@
-Undergraduate Student <br>
-[Department of Computer Science and Engineering](http://cse.snu.ac.kr/en) <br>
-[Seoul National University](http://en.snu.ac.kr/)
+### Education
+- <small>2013 - now</small> [Seoul National University, Seoul, Korea][snu]
+  - B.S. Student
+  - Major in [Computer Science and Engineering][cse]
+  - [Server administrator of SNU Dept. of CSE][bacchus]
+  - Server administrator of [UPnL]
+- <small>2010 - 2013</small> 경기과학고등학교
+  - <small>2011</small> 한국정보올림피아드 공모대회 동상
 
-경곽 -> 정보올림피아드 -> 서울대컴공
+[snu]: http://en.snu.ac.kr/
+[cse]: http://cse.snu.ac.kr/en
+[bacchus]: https://bacchus.snucse.org/about/
+[UPnL]: http://upnl.org/
 
-#### 스킬
-- x86 ARMv7 C C++
+### Projects
+-   [Hard core GitHub<sup> <i class="fa fa-github"></i></sup> practitioner][gh]
+
+    [![](github.png)][gh]
+
+-   카톡봇 <i class=private></i>
+
+    <img class=rounded src="kakao.png">
+
+-   [`obj-rs`][obj-rs]
+
+    [<div class=rounded>
+      <img style="margin: -30px 0 -220px;" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
+    </div>][obj-rs]
+
+[gh]: https://github.com/simnalamburt
+[obj-rs]: https://github.com/simnalamburt/obj-rs
+
+### Skills
+- x86 / C / C++
     - 시프
     - 마이크로 최적화
     - RBTree
@@ -45,8 +71,7 @@ Rust, Go
 
 VS, vim
 
-카톡봇
-
+- 하드 깃헙 유저
 
 ### TODO
 - 프로젝트 링크 전부 걸기
@@ -55,7 +80,6 @@ VS, vim
 #### Projects
 - [Fate / Another](https://github.com/simnalamburt/fate) *(2014-current)*
 - [vim-mundo](https://github.com/simnalamburt/vim-mundo)
-- [obj-rs](https://github.com/simnalamburt/obj-rs)
 - [xmath](https://github.com/simnalamburt/xmath)
 - [EasyD3D](https://github.com/simnalamburt/EasyD3D)
 - snucheat
