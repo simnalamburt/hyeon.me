@@ -40,7 +40,7 @@ Featured works
 
 -   #### [FateOne][fo] <small>― WinAPI, C#</small>
 
-    Game helper made for my own perpose
+    Game helper made for my own purpose
 
     [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
 
@@ -58,7 +58,7 @@ Skills
     - And countless works that I've done <i class=private></i>
 
 - #### Windows Native Programming <small>WinAPI, COM, ATL *11*</small>
-    > I was once hardcore windows developer, but I'm not anymore.
+    > I was once hardcore Windows developer, but I'm not anymore.
 
     - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D)
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
