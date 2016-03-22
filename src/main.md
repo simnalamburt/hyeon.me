@@ -36,7 +36,7 @@ Featured works
 
     Homebrewed 3D scene rasterizer without Hardware Acceleration
 
-    [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][fo]
+    [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][sr]
 
 -   #### [FateOne][fo] <small>― WinAPI, C#</small>
 
