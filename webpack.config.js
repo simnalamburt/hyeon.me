@@ -16,7 +16,7 @@ module.exports = {
   entry: './main.js',
   output: {
     path: `${__dirname}/build`,
-    publicPath: '/build/',
+    publicPath: 'build/',
     filename: '_bundle.js'
   },
   devtool: 'source-map',

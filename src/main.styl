@@ -38,37 +38,14 @@ mobile = 600px
 @media (max-width: mobile)
   .github-corner { display: none }
 
-header
-  padding: 20px padding
-  background: #fcfcfc
-  display: flex
-  justify-content: center
-  align-items: center
-
-  profile-width = 220px
-  profile-padding = 30px
-  a#me
-    padding-right: profile-padding
-    img
-      width: profile-width
-      border-radius: 10px
-    @media (max-width: mobile) { display: none }
-
-  article#header
-    max-width: width - padding*2 - profile-width - profile-padding
-    width: 100%
-
 article#main
   max-width: width
   margin: 0 auto
   padding: 20px padding
 
-  #featured-works + ul > li { max-width: 500px }
+  > h1 > img
+    margin-bottom: -10px
+    border-radius: 100%
 
-  #skills + ul > li small > em
-    margin-left: 10px
-    font-weight: normal
-    color: #bbb
-
-    &:before { content: '20' }
-    &:after { content: ' ~' }
+  @media (max-width: mobile)
+    > p > img { width: 80px }
