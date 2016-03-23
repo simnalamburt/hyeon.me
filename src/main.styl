@@ -23,9 +23,9 @@ button(text, fg, bg)
   background-color: bg
 
 i.private:after
-  button('PRIVATE', #a1882b, #ffefc6);
+  button('PRIVATE', #a1882b, #ffefc6)
 i.shit:after
-  button('SHIT', #702BA1, #EAC6FF);
+  button('SHIT', #702BA1, #EAC6FF)
 
 //
 // Layout
@@ -80,16 +80,29 @@ article#main
   margin: 0 auto
   padding: 20px padding 100px
 
-  #featured-works + ul
-    list-style: none
-    padding-left: 0
+  #featured-works
+    margin-bottom: 0
 
-    > li
-      max-width: 350px
+    & + ul
+      list-style: none
+      padding-left: 0
 
-      > h4 > small
-        font-weight: normal
-        &:before { content: '― ' }
+      @media (min-width: mobile + 1)
+        // TODO: Use autoprefixer
+        -webkit-columns: 2
+        -webkit-column-gap: 40px
+
+      > li
+        max-width: 600px
+        display: inline-block
+        > h4
+          margin-bottom: 0
+          > small
+            font-weight: normal
+            &:before { content: '― ' }
+        > p
+          font-size: 14px
+          margin: 5px 0
 
   #skills + ul > li > h4 > small > em
     margin-left: 10px
