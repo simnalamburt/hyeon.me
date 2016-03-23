@@ -121,9 +121,11 @@ Featured works
 
 <br>
 
-<br>
+--------
 
-<br>
+<p align=right>
+  <small>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</small>
+</p>
 
 [snu]: http://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
@@ -137,3 +139,4 @@ Featured works
 [fo]: https://github.com/simnalamburt/FateOne
 [dotfiles]: https://github.com/simnalamburt/.dotfiles
 [Othello AI]: https://en.wikipedia.org/wiki/Computer_Othello
+[jean]: https://en.wikipedia.org/wiki/Jean_Anouilh
