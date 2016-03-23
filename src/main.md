@@ -92,9 +92,7 @@ Featured works
 
     Wavefront OBJ parser written in [Rust]
 
-    [<div style="text-align:center;background:black" class=rounded>
-      <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
-    </div>][obj-rs]
+    [<img class=rounded src="img/obj-rs.png">][obj-rs]
 
 -   #### [SoftwareRasterizer][sr] <small>C++, IntelTBB</small>
 
@@ -112,7 +110,7 @@ Featured works
 
     My own UNIX-like system configuration files
 
-    [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
+    [<img class=rounded src="img/dotfiles.png">][dotfiles]
 
 -   <br>
 
