@@ -79,16 +79,18 @@ header
 article#main
   max-width: width
   margin: 0 auto
-  padding: 20px padding
+  padding: 20px padding 100px
 
   #featured-works + ul
     list-style: none
     padding-left: 0
 
     > li
-      max-width: 500px
+      max-width: 350px
 
-      > h4 > small:before { content: '― ' }
+      > h4 > small
+        font-weight: normal
+        &:before { content: '― ' }
 
   #skills + ul > li > h4 > small > em
     margin-left: 10px
