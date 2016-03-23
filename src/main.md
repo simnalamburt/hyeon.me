@@ -32,19 +32,21 @@ Featured works
       <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
     </div>][obj-rs]
 
--   #### [SoftwareRasterizer][sr] <small>― C++, IntelTBB</small>
+-   #### [SoftwareRasterizer][sr] <small>C++, IntelTBB</small>
 
     Homebrewed 3D scene rasterizer without Hardware Acceleration
 
     [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][sr]
 
--   #### [FateOne][fo] <small>― WinAPI, C#</small>
+-   #### [FateOne][fo] <small>WinAPI, C#</small>
 
     Game helper made for my own purpose
 
     [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
 
--   #### [dotfiles]
+-   #### [dotfiles] <small>Linux, shell</small>
+
+    My own UNIX-like system configuration files
 
     [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
 

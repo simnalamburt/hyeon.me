@@ -34,25 +34,38 @@ width = 890px
 padding = 20px
 mobile = 600px
 
-// Hide github corner on small screen
 @media (max-width: mobile)
+  // Hide github corner on small screen
   .github-corner { display: none }
+  // Use smaller font in small screen
+  .markdown-body{ font-size: 14px }
 
 header
+  header-color = #fcfcfc
+
   padding: 20px padding
-  background: #fcfcfc
+  background: header-color
   display: flex
   justify-content: center
   align-items: center
 
-  profile-width = 220px
-  profile-padding = 30px
-  a#me
-    padding-right: profile-padding
-    img
-      width: profile-width
-      border-radius: 10px
-    @media (max-width: mobile) { display: none }
+  profile-width = 190px
+  profile-padding = 20px
+  > a#me > img
+    width: profile-width
+    margin-right: profile-padding
+    border-radius: 10px
+
+  // Use smaller profile picture on small screen
+  @media (max-width: mobile)
+    display: block
+    > a#me
+      float: left
+      background: header-color
+      > img
+        width: 83px
+        margin-right: 15px
+        border-radius: 100%
 
   article#header
     max-width: width - padding*2 - profile-width - profile-padding
@@ -63,7 +76,10 @@ article#main
   margin: 0 auto
   padding: 20px padding
 
-  #featured-works + ul > li { max-width: 500px }
+  #featured-works + ul > li
+    max-width: 500px
+
+    > h4 > small:before { content: '― ' }
 
   #skills + ul > li small > em
     margin-left: 10px

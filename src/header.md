@@ -2,14 +2,14 @@ Hyeon Kim <small>김지현</small>
 ========
 > Natural Born Developer
 
+<small>
 <a class="fa fa-lg fa-github" href="https://github.com/simnalamburt"></a>
 <a class="fa fa-lg fa-facebook-official" href="https://facebook.com/hyeon.kim.188"></a>
 <a class="fa fa-lg fa-twitter" href="https://twitter.com/simnalamburt"></a>
-
-<small>
+&nbsp;*<simnalamburt@gmail.com>*
+<br>
 [gem][] | [npm][] | [Speaker Deck][]<br>
 [한국 러스트 사용자 그룹][rustkr] | [한국 하스켈 모임][haskellkr]<br>
-*<simnalamburt@gmail.com>*
 </small>
 
 [gem]: https://rubygems.org/profiles/simnalamburt
