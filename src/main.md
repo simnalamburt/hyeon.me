@@ -59,7 +59,7 @@ Skills
     - Once contributed to Rust language a little: [rust-lang/rust@`9041e6e`](https://github.com/rust-lang/rust/commit/9041e6e0ee)
 
 - #### Windows Native Programming <small>WinAPI, COM, ATL *11*</small>
-    > I was once hardcore Windows developer, but I'm not anymore.
+    > I was once a hardcore Windows developer, but I'm not anymore.
 
     - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D)
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
