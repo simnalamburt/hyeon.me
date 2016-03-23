@@ -27,7 +27,6 @@ Skills
     - And countless works that I've done
 
 - #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
-    - [P](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)[H](https://noraesae.github.io/PHP-a-fractal-of-bad-design-kr/)[P](http://phpsadness.com/) <i class=shit></i>
     - Backend
       - Ruby <small>Rails, sinatra, unicorn</small>
       - Python <small>Flask, SQLAlchemy</small>
@@ -39,6 +38,7 @@ Skills
       - Old school frontend <small>ES5, jQuery, css</small>
       - [simnalamburt/hyeon.me](https://github.com/simnalamburt/hyeon.me)
       - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice)
+    - [P](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)[H](https://noraesae.github.io/PHP-a-fractal-of-bad-design-kr/)[P](http://phpsadness.com/) <i class=shit></i>
 
 - #### Server Administrator <small>Ubuntu, Arch *13*</small>
     - Currently managing 6 servers:
