@@ -8,6 +8,7 @@ import 'github-markdown-css/github-markdown.css'
 import 'font-awesome/css/font-awesome.css'
 import './main.styl'
 
+// $FlowIssue: <img> tag does have `src` property.
 document.getElementById('me').src = profile;
 document.getElementById('header').innerHTML = header;
 document.getElementById('main').innerHTML = main;
