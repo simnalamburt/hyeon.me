@@ -1,7 +1,11 @@
-<font style="color:#BD0000">
+<p style="color:#BD0000; background:rgba(255,0,0,0.1); padding: 5px 15px;">
   <i class="fa fa-exclamation-triangle"></i> <b>이 이력서는 미완성입니다.</b><br>
-  거기, 보고계신 인사담당자님. <a href="javascript:history.back()">뒤로가기</a>를 눌러주세요.
-</font>
+  거기, 보고계신 인사담당자님. <strong><a href="javascript:history.back()">뒤로가기</a></strong>를 눌러주세요.
+</p>
+
+<div><a href="https://github.com/simnalamburt"><img src="img/streak.png"></a></div>
+
+> **2,919 total** ― *Contributions in the last year*
 
 ### Education
 - <small>2013 - now</small> [Seoul National University, Seoul, Korea][snu]
@@ -14,10 +18,6 @@
 
 Featured works
 --------
--   [Hard core GitHub<sup> <i class="fa fa-github"></i></sup> practitioner][gh]
-
-    [![](img/github.png)][gh]
-
 -   #### node-kakao <i class=private></i>
 
     KakaoTalk Client Library written in [node.js]
@@ -49,6 +49,8 @@ Featured works
     My own UNIX-like system configuration files
 
     [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
+
+-   ##### <i class="fa fa-github"></i> Please visit my [GitHub] profile to see more works!
 
 Skills
 --------
@@ -106,7 +108,7 @@ Skills
 [cse]: http://cse.snu.ac.kr/en
 [bacchus]: https://bacchus.snucse.org/about/
 [UPnL]: http://upnl.org/
-[gh]: https://github.com/simnalamburt
+[GitHub]: https://github.com/simnalamburt
 [obj-rs]: https://github.com/simnalamburt/obj-rs
 [node.js]: https://nodejs.org/
 [Rust]: https://www.rust-lang.org/
