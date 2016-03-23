@@ -123,9 +123,10 @@ Featured works
 
 --------
 
-<p align=right>
-  <small>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</small>
-</p>
+<small style="display: block">
+  <span id=license>[AGPLv3 License][li]</span>
+  <span id=quote>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</span>
+</small>
 
 [snu]: http://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
@@ -140,3 +141,4 @@ Featured works
 [dotfiles]: https://github.com/simnalamburt/.dotfiles
 [Othello AI]: https://en.wikipedia.org/wiki/Computer_Othello
 [jean]: https://en.wikipedia.org/wiki/Jean_Anouilh
+[li]: https://github.com/simnalamburt/hyeon.me/blob/master/LICENSE
