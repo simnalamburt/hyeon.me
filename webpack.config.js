@@ -1,4 +1,6 @@
 const webpack = require('webpack');
+const autoprefixer = require('autoprefixer');
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // Always enabled plugins
@@ -27,7 +29,7 @@ module.exports = {
       { test: /\.png$/, loader: 'file' },
       { test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file' },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') },
-      { test: /\.styl$/, loader: ExtractTextPlugin.extract('style', 'css!stylus') },
+      { test: /\.styl$/, loader: ExtractTextPlugin.extract('style', 'css!postcss!stylus') },
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
@@ -35,5 +37,6 @@ module.exports = {
         query: { presets: ['es2015', 'stage-3', 'react'] }
       }
     ]
-  }
+  },
+  postcss: () => [autoprefixer]
 };
