@@ -18,47 +18,6 @@
 
 <br>
 
-Featured works
---------
--   #### node-kakao <i class=private></i>
-
-    KakaoTalk Client Library written in [node.js]
-
-    <img class=rounded src="img/kakao.png">
-
--   #### [`obj-rs`][obj-rs]
-
-    Wavefront OBJ parser written in [Rust]
-
-    [<div style="text-align:center;background:black" class=rounded>
-      <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
-    </div>][obj-rs]
-
--   #### [SoftwareRasterizer][sr] <small>C++, IntelTBB</small>
-
-    Homebrewed 3D scene rasterizer without Hardware Acceleration
-
-    [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][sr]
-
--   #### [FateOne][fo] <small>WinAPI, C#</small>
-
-    Game helper made for my own purpose
-
-    [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
-
--   #### [dotfiles] <small>Linux, shell</small>
-
-    My own UNIX-like system configuration files
-
-    [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
-
--   ###### <i class="fa fa-github"></i> Please visit my [GitHub] profile to see more works!
-
-    - [simnalamburt/snucse](https://github.com/simnalamburt/snucse) <small>Note takings</small>
-    - [simnalamburt/snippets](https://github.com/simnalamburt/snippets) <small>Small code snippets</small>
-
-<br>
-
 Skills
 --------
 - #### System Programming <small>x86_64, C, C++, Rust *10*</small>
@@ -118,6 +77,51 @@ Skills
     - [simnalamburt/xmath](https://github.com/simnalamburt/xmath)
 
 - #### Android <small>Java, Kotlin *11*</small>
+
+<br>
+
+Featured works
+--------
+-   #### node-kakao <i class=private></i>
+
+    KakaoTalk Client Library written in [node.js]
+
+    <img class=rounded src="img/kakao.png">
+
+-   #### [`obj-rs`][obj-rs]
+
+    Wavefront OBJ parser written in [Rust]
+
+    [<div style="text-align:center;background:black" class=rounded>
+      <img style="width:81%;margin:-6% 0 -43%" src="https://simnalamburt.github.io/obj-rs/screenshot.png">
+    </div>][obj-rs]
+
+-   #### [SoftwareRasterizer][sr] <small>C++, IntelTBB</small>
+
+    Homebrewed 3D scene rasterizer without Hardware Acceleration
+
+    [<img style="border:#ccc 1px solid" class=rounded src="img/rasterizer.png">][sr]
+
+-   #### [FateOne][fo] <small>WinAPI, C#</small>
+
+    Game helper made for my own purpose
+
+    [<img style="border:#ccc 1px solid" class=rounded src="img/fateone.png">][fo]
+
+-   #### [dotfiles] <small>Linux, shell</small>
+
+    My own UNIX-like system configuration files
+
+    [<img class=rounded src="https://raw.githubusercontent.com/simnalamburt/.dotfiles/resources/logo.png">][dotfiles]
+
+-   ###### <i class="fa fa-github"></i> Please visit my [GitHub] profile to see more works!
+
+    - [simnalamburt/snucse](https://github.com/simnalamburt/snucse) <small>Note takings</small>
+    - [simnalamburt/snippets](https://github.com/simnalamburt/snippets) <small>Small code snippets</small>
+
+<br>
+
+<br>
 
 <br>
 
