@@ -1,9 +1,4 @@
-<p style="color:#BD0000; background:rgba(255,0,0,0.1); padding: 5px 15px;">
-  <i class="fa fa-exclamation-triangle"></i> 이 이력서는 미완성입니다.
-  <a href="javascript:history.back()">뒤로가기</a></strong>를 눌러주세요.
-</p>
-
-<div><a href="https://github.com/simnalamburt"><img src="img/streak.png"></a></div>
+<div align=center><a href="https://github.com/simnalamburt"><img src="img/streak.png"></a></div>
 
 > **2,919 total** ― *Contributions in the last year*
 
