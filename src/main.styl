@@ -30,7 +30,7 @@ i.shit:after
 //
 // Layout
 //
-width = 890px
+pagesize = 890px
 padding = 20px
 mobile = 600px
 
@@ -42,41 +42,41 @@ mobile = 600px
 
 header
   header-color = #eee
-
-  padding: 20px padding
   background: header-color
-  display: flex
-  justify-content: center
-  align-items: center
 
-  profile-width = 190px
-  profile-padding = 20px
-  > a#me > img
-    width: profile-width
-    margin-right: profile-padding
-    border-radius: 10px
+  > div
+    max-width: pagesize
+    margin: 0 auto
+    padding: 20px padding
+    @media (min-width: mobile + 1)
+      display: flex
+      justify-content: center
+      align-items: center
 
-  // Use smaller profile picture on small screen
-  @media (max-width: mobile)
-    display: block
     > a#me
-      float: left
       background: header-color
+      @media (max-width: mobile) { float: left }
+
       > img
-        width: 83px
-        margin-right: 15px
-        border-radius: 100%
+        width: 190px
+        margin-right: 20px
+        border-radius: 10px
+
+        // Use smaller profile picture on small screen
+        @media (max-width: mobile)
+          width: 83px
+          margin-right: 15px
+          border-radius: 100%
 
   article#header
-    max-width: width - padding*2 - profile-width - profile-padding
-    width: 100%
+    flex-grow: 1
     h1 { border-color: #d4d4d4 }
 
     // Do not display Korean name on small screen
     @media (max-width: mobile) { > h1 > small { display: none } }
 
 article#main
-  max-width: width
+  max-width: pagesize
   margin: 0 auto
   padding: 20px padding 100px
 
