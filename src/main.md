@@ -27,7 +27,7 @@ Skills
     - And countless works that I've done
 
 - #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
-    - PHP <i class=shit></i>
+    - [P](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)[H](https://noraesae.github.io/PHP-a-fractal-of-bad-design-kr/)[P](http://phpsadness.com/) <i class=shit></i>
     - Backend
       - Ruby <small>Rails, sinatra, unicorn</small>
       - Python <small>Flask, SQLAlchemy</small>
