@@ -70,7 +70,6 @@ header
   article#header
     max-width: width - padding*2 - profile-width - profile-padding
     width: 100%
-
     h1 { border-color: #d4d4d4 }
 
     // Do not display Korean name on small screen
@@ -99,3 +98,9 @@ article#main
 
     &:before { content: '20' }
     &:after { content: '~' }
+
+  #quote
+    float: right
+
+  // Do not display license info on small screen
+  @media (max-width: mobile) { #license { display: none } }
