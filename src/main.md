@@ -69,7 +69,7 @@ Skills
     - [simnalamburt/FateOne][fo]
 
 - #### Multi-core Programming <small>CUDA, OpenCL, OpenMP, MPI *12*</small>
-    - GPU accelerated Othello AI <i class=private></i>
+    - GPU-accelerated Othello AI <i class=private></i>
     - [PARSEC Benchmark Swaption](https://github.com/simnalamburt/snucse.swaptions)
 
 - #### Computer Graphics <small>D3D, OpenGL *12*</small>
