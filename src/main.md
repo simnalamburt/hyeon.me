@@ -26,7 +26,7 @@ Skills
       - Ruby <small>Rails, sinatra, unicorn</small>
       - Python <small>Flask, SQLAlchemy</small>
       - node.js <small>expressjs, mongo</small>
-      - Go <small>Rails, sinatra, unicorn</small>
+      - Go
     - Frontend
       - Various frameworks experience <small>React, Redux, AngularJS</small>
       - Modern webdev knowledge <small>ES2015, Webpack, Babel, Flow, SASS, Stylus</small>
