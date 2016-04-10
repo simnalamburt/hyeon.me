@@ -19,6 +19,7 @@
     "markdown-loader": "^0.1.7",
     "style-loader": "^0.13.0",
     "stylus-loader": "^1.5.1",
+    "twitter-text": "^1.13.4",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
   },
