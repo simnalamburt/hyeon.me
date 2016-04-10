@@ -18,7 +18,7 @@ Skills
 - #### System Programming <small>x86_64, C, C++, Rust *10*</small>
     - [simnalamburt/tiny-rbtree](https://github.com/simnalamburt/tiny-rbtree)
     - [simnalamburt/SoftwareRasterizer][sr]
-    - [Homebrewed `malloc()`](https://github.com/simnalamburt/snucse.malloclab)
+    - [Homebrewed `malloc()`](https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab)
     - And countless works that I've done
 
 - #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
