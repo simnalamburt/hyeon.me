@@ -1,7 +1,7 @@
 // @flow
 import header from './header.md'
 import main from './main.md'
-import profile from './img/profile.png'
+import profile from './img/profile.jpg'
 
 import 'normalize.css/normalize.css'
 import 'github-markdown-css/github-markdown.css'
