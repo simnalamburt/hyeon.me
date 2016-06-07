@@ -33,7 +33,7 @@ Skills
       - Old school frontend <small>ES5, jQuery, css</small>
       - [simnalamburt/hyeon.me](https://github.com/simnalamburt/hyeon.me)
       - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice)
-    - [P](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)[H](https://noraesae.github.io/PHP-a-fractal-of-bad-design-kr/)[P](http://phpsadness.com/) <i class=shit></i>
+    - PHP
 
 - #### Server Administrator <small>Ubuntu, Arch *13*</small>
     - Currently managing 6 servers:
@@ -58,7 +58,7 @@ Skills
 
     - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D)
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC)
-    - ActiveX Experience <i class=shit></i>
+    - ActiveX Experience
 
 - #### .NET <small>C#, C++/CLI, Mono *11*</small>
     - [simnalamburt/FateOne][fo]
