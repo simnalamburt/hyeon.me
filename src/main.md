@@ -2,7 +2,13 @@
 
 > **2,919 total** ― *Contributions in the last year*
 
-### Education
+### Curriculum vitae
+- <small>2016</small> [PATI Games]
+  - Platform Developer
+  - Server administrator of [아이러브니키]
+- <small>2014</small> [Byline]
+  - Starting Member
+  - Main developer, server administrator
 - <small>2013 - now</small> [Seoul National University, Seoul, Korea][snu]
   - B.S. Student
   - Major in [Computer Science and Engineering][cse]
@@ -21,22 +27,10 @@ Skills
     - [Homebrewed `malloc()`](https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab)
     - And countless works that I've done
 
-- #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
-    - Backend
-      - Ruby <small>Rails, sinatra, unicorn</small>
-      - Python <small>Flask, SQLAlchemy</small>
-      - node.js <small>expressjs, mongo</small>
-      - Go
-    - Frontend
-      - Various frameworks experience <small>React, Redux, AngularJS</small>
-      - Modern webdev knowledge <small>ES2015, Webpack, Babel, Flow, SASS, Stylus</small>
-      - Old school frontend <small>ES5, jQuery, css</small>
-      - [simnalamburt/hyeon.me](https://github.com/simnalamburt/hyeon.me)
-      - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice)
-    - PHP
-
-- #### Server Administrator <small>Ubuntu, Arch *13*</small>
-    - Currently managing 6 servers:
+- #### Server Administrator <small>Ubuntu, CentOS, Arch, ... *13*</small>
+    - Experience of large-scale server admin <small>AWS, CloudFlare, CCU ~50,000</small>
+    - Docker orchestration <small>CoreOS, Kubernetes</small>
+    - Currently managing 6 physical servers:
       - [hyeon.me](https://hyeon.me)
       - [kuma.hyeon.me](https://kuma.hyeon.me)
       - [uriel.upnl.org](https://uriel.upnl.org) <i class=private></i>
@@ -49,8 +43,22 @@ Skills
     - [simnalamburt/cgitc](https://github.com/simnalamburt/cgitc)
     - [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo)
 
+- #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
+    - Backend
+      - Ruby <small>Rails, sinatra, unicorn</small>
+      - Python <small>Flask, SQLAlchemy</small>
+      - node.js <small>expressjs, mongo</small>
+      - Go
+    - Frontend
+      - Various frameworks experience <small>React, Redux, Angular, Elm</small>
+      - Modern webdev knowledge <small>ES2015, Webpack, Babel, Flow, SASS, Stylus</small>
+      - Old school frontend <small>ES5, jQuery, css</small>
+      - [simnalamburt/hyeon.me](https://github.com/simnalamburt/hyeon.me)
+      - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice)
+    - PHP
+
 - #### Programming Language <small>*14*</small>
-    - Functional programming language experience <small>OCaml, Haskell</small>
+    - Functional programming language experience <small>Rust, OCaml, Haskell, Elm</small>
     - Once contributed to Rust language a little: [rust-lang/rust@`9041e6e`](https://github.com/rust-lang/rust/commit/9041e6e0ee)
 
 - #### Windows Native Programming <small>WinAPI, COM, ATL *11*</small>
@@ -123,6 +131,9 @@ Featured works
   <span id=quote>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</span>
 </small>
 
+[PATI Games]: https://patigames.com/
+[아이러브니키]: https://patigames.com/games/8
+[Byline]: https://www.byline.com/
 [snu]: http://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
 [bacchus]: https://bacchus.snucse.org/about/
