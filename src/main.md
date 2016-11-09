@@ -4,7 +4,7 @@
 
 ### Curriculum vitae
 - <small>2016</small> [PATI Games]
-  - Platform Developer
+  - DevOps
   - Server administrator of [아이러브니키]
 - <small>2014</small> [Byline]
   - Starting Member
