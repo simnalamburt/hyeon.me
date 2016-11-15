@@ -2,7 +2,7 @@
 
 > **2,919 total** ― *Contributions in the last year*
 
-### Curriculum vitae
+### Curriculum vitae <small>경력</small>
 - <small>2016</small> [PATI Games]
   - DevOps
   - Server administrator of [아이러브니키]
@@ -19,7 +19,7 @@
 
 <br>
 
-Skills
+Skills <small>기술</small>
 --------
 - #### System Programming <small>x86_64, C, C++, Rust *10*</small>
     - [simnalamburt/tiny-rbtree](https://github.com/simnalamburt/tiny-rbtree)
