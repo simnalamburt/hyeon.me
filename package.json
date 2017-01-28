@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "test": "flow",
-    "build": "flow && NODE_ENV=production webpack -p",
-    "build_unchecked": "NODE_ENV=production webpack -p",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --inline --host 0.0.0.0",
+    "build": "flow && NODE_ENV=production webpack --optimize-occurrence-order",
+    "watch": "webpack --watch",
+    "test": "flow"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.0",
