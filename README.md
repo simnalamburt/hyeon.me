@@ -6,7 +6,7 @@ yarn
 
 yarn test       # Static type check (flow)
 yarn build      # Build everything at once
-open index.html
+open public/index.html
 
 ./test          # Hyperlink validator
 
