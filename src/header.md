@@ -4,7 +4,7 @@ Hyeon Kim <small>김지현</small>
 
 <small>
 <a class="fa fa-lg fa-github" href="https://github.com/simnalamburt"></a>
-<a class="fa fa-lg fa-facebook-official" href="https://facebook.com/hyeon.kim.188"></a>
+<a class="fa fa-lg fa-facebook-official" href="https://www.facebook.com/simnalamburt"></a>
 <a class="fa fa-lg fa-twitter" href="https://twitter.com/simnalamburt"></a>
 &nbsp;*<simnalamburt@gmail.com>*
 <br>
