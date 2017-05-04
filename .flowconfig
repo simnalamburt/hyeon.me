@@ -1,8 +1,0 @@
-[ignore]
-.*/node_modules/babel-.*
-.*/node_modules/fbjs
-.*/build/.*
-
-[options]
-module.name_mapper='^.*\.\(png\|jpg\|css\|styl\|md\)$' -> 'empty/object'
-suppress_comment= \\(.\\|\n\\)*\\$FlowIssue

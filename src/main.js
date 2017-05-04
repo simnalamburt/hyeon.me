@@ -1,4 +1,3 @@
-// @flow
 import header from './header.md'
 import main from './main.md'
 import profile from './img/profile.jpg'
@@ -9,7 +8,6 @@ import 'font-awesome/css/font-awesome.css'
 import './main.styl'
 import './analytics.js'
 
-// $FlowIssue: <img> tag does have `src` property.
 document.getElementById('me').src = profile;
 document.getElementById('header').innerHTML = header;
 document.getElementById('main').innerHTML = main;
