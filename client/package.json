@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "webpack --env=production --progress",
+    "build:dev": "webpack --progress",
     "watch": "webpack --watch"
   },
   "devDependencies": {
