@@ -16,6 +16,10 @@ yarn build      # Build front-end codes in production mode
 
 yarn watch      # Watch for the changes & build front-end
                 # codes in development mode
+
+
+# misc
+./test          # Hyperlink validator
 ```
 
 <br>
