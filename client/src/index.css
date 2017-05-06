@@ -1,0 +1,154 @@
+/* Always use border-box */
+* { box-sizing: border-box; }
+
+/* Custom markdown style */
+.markdown-body small { color: gray; }
+
+/* Rounded DOM */
+.rounded {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* 'private' and 'shit' button */
+:root {
+  --my-button: {
+    display: inline-block;
+    padding: 4px 5px 3px;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 11px;
+    border-radius: 3px;
+    font-style: normal;
+  };
+}
+i.private:after {
+  @apply --my-button;
+
+  content: 'PRIVATE';
+  color: #a1882b;
+  background-color: #ffefc6;
+}
+i.shit:after {
+  @apply --my-button;
+
+  content: 'SHIT';
+  color: #702BA1;
+  background-color: #EAC6FF;
+}
+
+
+
+/* Layout */
+:root {
+  --pagesize: 890px;
+  --padding: 20px;
+
+  --header-color: #eee;
+}
+
+@custom-media --mobile (width <= 600px);
+@custom-media --not-mobile (width > 600px);
+
+@media (--mobile) {
+  /* Hide github corner on small screen */
+  .github-corner { display: none; }
+  /* Use smaller font in small screen */
+  .markdown-body{ font-size: 14px; }
+}
+
+header {
+  background: var(--header-color);
+
+  & > div {
+    max-width: var(--pagesize);
+    margin: 0 auto;
+    padding: 20px var(--padding);
+    @media (--not-mobile) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & > a {
+      background: var(--header-color);
+      @media (--mobile) { float: left; }
+
+      & > img#me {
+        width: 190px;
+        height: 190px;
+        margin-right: 20px;
+        border-radius: 10px;
+
+        /* Use smaller profile picture on small screen */
+        @media (--mobile) {
+          width: 83px;
+          height: 83px;
+          margin-right: 15px;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
+
+  & #header {
+    flex-grow: 1;
+    & h1 { border-color: #d4d4d4; }
+
+    /* Do not display Korean name on small screen */
+    @media (--mobile) { & > h1 > small { display: none; } }
+  }
+}
+
+#main {
+  max-width: var(--pagesize);
+  margin: 0 auto;
+  padding: 20px var(--padding) 100px;
+
+  & #featured-works {
+    margin-bottom: 0;
+
+    & + ul {
+      list-style: none;
+      padding-left: 0;
+
+      @media (--not-mobile) {
+        columns: 2;
+        column-gap: 40px;
+      }
+
+      & > li {
+        width: 100%;
+        display: inline-block;
+        & > h4 {
+          margin-bottom: 0;
+          & > small {
+            font-weight: normal;
+            &:before { content: '― '; }
+          }
+        }
+        & > p {
+          font-size: 14px;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+
+  & #skills-small-small- + ul > li > h4 > small > em {
+    margin-left: 10px;
+    font-weight: normal;
+    color: #bbb;
+
+    &:before { content: '20'; }
+    &:after { content: '~'; }
+    @media (--mobile) { display: none; }
+  }
+
+  & #quote {
+    float: right;
+  }
+
+  /* Do not display license info on small screen */
+  @media (--mobile) { & #license { display: none; } }
+}
