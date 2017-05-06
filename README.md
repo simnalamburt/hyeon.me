@@ -1,18 +1,21 @@
 [hyeon.me](https://hyeon.me)
 ========
 
-<!-- TODO: Update -->
+<!-- TODO
+
+yarn build:dev  # Build front-codes in development mode
+yarn start      # Start webpack-dev-server
+
+-->
 
 ```bash
-yarn
+cd client/
 
-yarn build      # Build everything at once
-open public/index.html
+yarn            # Download dependencies
+yarn build      # Build front-end codes in production mode
 
-./test          # Hyperlink validator
-
-yarn start      # Do everything in watch mode
-                # Go to http://localhost:8080/webpack-dev-server/
+yarn watch      # Watch for the changes & build front-end
+                # codes in development mode
 ```
 
 <br>
