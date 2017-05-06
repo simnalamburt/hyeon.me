@@ -3,7 +3,6 @@
 
 <!-- TODO
 
-yarn build:dev  # Build front-codes in development mode
 yarn start      # Start webpack-dev-server
 
 -->
@@ -13,6 +12,7 @@ cd client/
 
 yarn            # Download dependencies
 yarn build      # Build front-end codes in production mode
+yarn build:dev  # Build front-end codes in development mode
 
 yarn watch      # Watch for the changes & build front-end
                 # codes in development mode

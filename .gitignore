@@ -2,4 +2,4 @@
 /client/node_modules
 
 # Build results
-/public/build
+/dist
