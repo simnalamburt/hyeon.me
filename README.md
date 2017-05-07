@@ -1,11 +1,6 @@
 [hyeon.me](https://hyeon.me)
 ========
-
-<!-- TODO
-
-yarn start      # Start webpack-dev-server
-
--->
+My resume.
 
 ```bash
 cd client/
@@ -18,7 +13,6 @@ yarn watch      # Watch for the changes & build front-end
                 # codes in development mode
 
 
-# misc
 ./test          # Hyperlink validator
 ```
 
