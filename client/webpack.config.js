@@ -37,7 +37,7 @@ const commonConfigs = {
   },
   plugins: [
     new ExtractTextPlugin('[hash].css'),
-    //new HtmlWebpackPlugin({ template: 'src/index.html' }),
+    new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
 }
 
