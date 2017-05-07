@@ -2,7 +2,8 @@
   "scripts": {
     "build": "webpack --env=production --progress",
     "build:dev": "webpack --progress",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
     "compression-webpack-plugin": "^0.4.0",
@@ -16,6 +17,7 @@
     "postcss-loader": "^1.2.2",
     "twitter-text": "^1.13.4",
     "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {

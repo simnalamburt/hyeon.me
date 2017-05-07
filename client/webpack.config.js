@@ -45,7 +45,11 @@ const commonConfigs = {
 // Development-mode configs
 //
 const devConfigs = {
-  devtool: 'source-map'
+  devtool: 'source-map',
+  devServer: {
+    compress: true,
+    contentBase: path.resolve(__dirname, '../public')
+  }
 }
 
 //

@@ -3,6 +3,11 @@
 My resume.
 
 ```bash
+ls
+# client/       # Client-side codes
+# public/       # Files which will be statically served
+# dist/         # Webpack build results
+
 cd client/
 
 yarn            # Download dependencies
@@ -11,6 +16,9 @@ yarn build:dev  # Build front-end codes in development mode
 
 yarn watch      # Watch for the changes & build front-end
                 # codes in development mode
+
+yarn start      # Start webpack-dev-server
+                # See http://localhost:8080
 
 
 ./test          # Hyperlink validator
