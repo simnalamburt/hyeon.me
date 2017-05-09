@@ -14,7 +14,7 @@ const BrotliPlugin = require('brotli-webpack-plugin')
 const commonConfigs = {
   entry: './src/index.js',
   output: {
-    filename: '[hash].js',
+    filename: 'static-[hash].js',
     path: path.resolve(__dirname, '../dist')
   },
   module: {
@@ -28,7 +28,7 @@ const commonConfigs = {
       { test: /\.html$/, use: 'html-loader' },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
-        use: 'file-loader?name=[hash].[ext]'
+        use: 'file-loader?name=static-[hash].[ext]'
       },
       {
         test: /\.css$/,
@@ -37,7 +37,7 @@ const commonConfigs = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('[hash].css'),
+    new ExtractTextPlugin('static-[hash].css'),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
 }
