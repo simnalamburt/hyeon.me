@@ -3,6 +3,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const GzipPlugin = require('compression-webpack-plugin')
@@ -37,6 +38,7 @@ const commonConfigs = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(['../public/static-*'], { allowExternal: true }),
     new ExtractTextPlugin('static-[hash].css'),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
