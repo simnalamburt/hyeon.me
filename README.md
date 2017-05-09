@@ -1,6 +1,7 @@
 [hyeon.me](https://hyeon.me)
 ========
-My resume.
+My resume website. See [simnalamburt/nginx.conf] for the sample nginx
+configuration.
 
 ```bash
 ls
@@ -31,5 +32,6 @@ yarn start      # Start webpack-dev-server
 *hyeon.me* is primarily distributed under the terms of the [GNU Affero General
 Public License v3.0] or any later version. See [COPYRIGHT] for details.
 
+[simnalamburt/nginx.conf]:https://github.com/simnalamburt/nginx.conf/blob/master/kuma.conf
 [GNU Affero General Public License v3.0]: LICENSE
 [COPYRIGHT]: COPYRIGHT
