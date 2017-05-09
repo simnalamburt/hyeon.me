@@ -2,4 +2,5 @@
 /client/node_modules
 
 # Build results
-/dist
+/public/static-*
+/public/index.html
