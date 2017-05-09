@@ -60,7 +60,11 @@ const productionConfigs = {
     new webpack.LoaderOptionsPlugin({ minimize: true, debug: false }),
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') }),
-    new CompressionPlugin({ test: /\.(?:css|js|svg|eot|ttf|html)$/ }),
+    new CompressionPlugin({
+      algorithm: 'zopfli',
+      test: /\.(?:css|js|svg|eot|ttf|html)$/,
+      minRatio: 1
+    }),
   ]
 }
 
