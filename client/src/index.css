@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-/* 'private' and 'shit' button */
+/* 'private' and 'oh-no' button */
 :root {
   --my-button: {
     display: inline-block;
@@ -29,10 +29,10 @@ i.private:after {
   color: #a1882b;
   background-color: #ffefc6;
 }
-i.shit:after {
+i.oh-no:after {
   @apply --my-button;
 
-  content: 'SHIT';
+  content: 'OH NO';
   color: #702BA1;
   background-color: #EAC6FF;
 }
@@ -135,7 +135,7 @@ header {
     }
   }
 
-  & #skills-small-small- + ul > li > h4 > small > em {
+  & > ul:nth-of-type(2) > li > h4 > small > em {
     margin-left: 10px;
     font-weight: normal;
     color: #bbb;
