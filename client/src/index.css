@@ -112,7 +112,7 @@ header {
       list-style: none;
       padding-left: 0;
 
-      @media (--not-mobile) {
+      @media (--not-mobile), print {
         columns: 2;
         column-gap: 40px;
       }
@@ -151,4 +151,15 @@ header {
 
   /* Do not display license info on small screen */
   @media (--mobile) { & #license { display: none; } }
+
+}
+
+
+/* CSS Rules to print hyeon.me beautifully */
+@page {
+  size: A4 portrait;
+}
+
+#main > h2 {
+  page-break-before: always;
 }
