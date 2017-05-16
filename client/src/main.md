@@ -20,7 +20,7 @@
 
 <br>
 
-Skills
+Experience
 --------
 > Most of the work is open source, so you can freely look and verify it.
 
@@ -35,7 +35,7 @@ Skills
     - [rust-kr/rust-kr.org](https://github.com/rust-kr/rust-kr.org),
       Korean Rust user group website made in Rust
 
-- #### Server Administrator <small>Ubuntu, CentOS, Arch, Windows, ... *13*</small>
+- #### Server Administration <small>Ubuntu, CentOS, Arch, Windows, ... *13*</small>
     - Experience of large-scale server admin <small>AWS, CCU ~50,000</small>
     - Container orchestration <small>docker, rkt, CoreOS, Kubernetes</small>
     - Currently managing 6 physical servers:
@@ -46,8 +46,12 @@ Skills
       - [gemini.upnl.org](http://gemini.upnl.org)
       - [edhelbroy.upnl.org](http://edhelbroy.upnl.org)
     - Legacy system experience <small>Solaris 10, IBM AIX 6.1</small>
+    - [simnalamburt/nginx.conf](https://github.com/simnalamburt/nginx.conf),
+      my nginx configuration, published according to the Kerchoff's principle
+    - [simnalamburt/docker-practice](https://github.com/simnalamburt/docker-practice),
+      Dockerfile of [snu.jokbo.me](https://snu.jokbo.me/)
 
-- #### Linux Experience <small>bash, zsh, fish, vim, ... *13*</small>
+- #### Command-line Utilities <small>bash, zsh, fish, vim, ... *13*</small>
     - [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo),
       vim undo tree visualizer
     - [simnalamburt/shellder](https://github.com/simnalamburt/shellder),
@@ -55,40 +59,83 @@ Skills
     - [simnalamburt/cgitc](https://github.com/simnalamburt/cgitc),
       git abbreviation plugin for bash/zsh/fish
     - [simnalamburt/.dotfiles](https://github.com/simnalamburt/.dotfiles),
-      My UNIX-like system configuration files
+      my UNIX-like system configuration files
 
-- #### Web <small>Ruby, Go, node.js, ECMAScript, ... *04*</small>
-    - Backend
-      - Ruby <small>Rails, sinatra, unicorn</small>
-      - Python <small>Flask, SQLAlchemy</small>
-      - Node.js <small>koa, express</small>
-      - Go, Rust, Elixir
-    - Frontend
-      - Various frameworks experience <small>Elm, React, Redux, Angular 1</small>
-      - Modern frontend stack <small>ES2017, CSS4, Webpack 2, TypeScript, Babel, Flow</small>
-      - [simnalamburt/hyeon.me](https://github.com/simnalamburt/hyeon.me)
-      - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice)
+- #### Software Engineering <small>*04*</small>
+    - Ruby <small>Rails, sinatra, unicorn</small>
+      - [kollus-ruby](https://github.com/simnalamburt/kollus-ruby),
+        [Kollus](https://kollus.com) media API reverse engineering
+      - [daumdic-ruby](https://github.com/simnalamburt/daumdic-ruby),
+        simple daum dictionary crawler library
+      - [simnalamburt/svn-explorer](https://github.com/simnalamburt/svn-explorer),
+        dead-simple svn repository explorer
+    - Python <small>Flask, SQLAlchemy</small>
+      - [snu.jokbo.me], issue sharing service <i class=private></i>
+      - [cloudkeeper], IRCCloud reverse engineering
+      - [pipenv](https://github.com/kennethreitz/pipenv) contribution:
+        [#228](https://github.com/kennethreitz/pipenv/issues/228)
+        [#238](https://github.com/kennethreitz/pipenv/pull/238)
+    - ECMAScript <small>browser, Node.js</small>
+      - node-kakao, KakaoTalk protocol reverse engineering <i class=private></i>
+      - [slate/slate-irc](https://github.com/slate/slate-irc), IRC client
+        library made to replace
+        [node-irc](https://github.com/martynsmith/node-irc) which does not event
+        support CJK nickname
+      - [wbwwb-ko](https://github.com/simnalamburt/wbwwb-ko), Korean translation
+        of a minigame "We Become What We Behold", made by Nicky Case
+      - [noraesae/pen](https://github.com/noraesae/pen/commits?author=simnalamburt)
+        contribution:
+        [#4](https://github.com/noraesae/pen/issues/4)
+        [#5](https://github.com/noraesae/pen/issues/5)
+        [#6](https://github.com/noraesae/pen/issues/6)
+        [#7](https://github.com/noraesae/pen/issues/7)
+        [#8](https://github.com/noraesae/pen/issues/8)
+        [#9](https://github.com/noraesae/pen/issues/9)
+        [#10](https://github.com/noraesae/pen/issues/10)
+        [#11](https://github.com/noraesae/pen/issues/11)
+    - Go
+      - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) contribution:
+        [#96](https://github.com/denisenkom/go-mssqldb/issues/96)
+        [#250](https://github.com/denisenkom/go-mssqldb/pull/250)
+    - Rust
+      - [texture_packer](https://github.com/PistonDevelopers/texture_packer) contribution:
+        [#41](https://github.com/PistonDevelopers/texture_packer/pull/41)
+        [#42](https://github.com/PistonDevelopers/texture_packer/pull/42)
+        [#43](https://github.com/PistonDevelopers/texture_packer/pull/43)
+        [#46](https://github.com/PistonDevelopers/texture_packer/pull/46)
+    - Elm
+      - [libreirc/elm-crypto](https://github.com/libreirc/elm-crypto), [Web Cryptography API](https://w3c.github.io/webcrypto/Overview.html) for Elm
+    - Modern web frontend experience <small>ES2017, CSS4, Webpack 2, TypeScript, Babel, Flow</small>
+      - [hyeon.me](https://github.com/simnalamburt/hyeon.me), this resume was
+        made with webpack2, cssnext, and markdown
+      - [simnalamburt/web-practice](https://github.com/simnalamburt/web-practice),
+        Sample app to practice react, redux, and flow
+    - Elixir
     - PHP <i class=oh-no></i>
 
-- #### Programming Language <small>*14*</small>
+- #### Programming Language Theory <small>*14*</small>
     - Functional programming language experience <small>Rust, OCaml, Haskell, Elm</small>
     - Once contributed to the Rust compiler a little:
       [rust-lang/rust#20460](https://github.com/rust-lang/rust/issues/20460),
       [rust-lang/rust@`9041e6e`](https://github.com/rust-lang/rust/commit/9041e6e0ee)
+    - Hand-made [type inferencer for first-order
+      logic](https://github.com/simnalamburt/snucse.pl/tree/master/hw4)
 
 - #### Windows Native Programming <small>WinAPI, COM, ATL *11*</small>
     > I was once a hardcore Windows developer, but I'm not anymore.
 
     - [simnalamburt/EasyD3D](https://github.com/simnalamburt/EasyD3D),
-      Toy project to wrap Direct3D11 wrapper with C++14
+      toy project to wrap Direct3D11 wrapper with C++14
     - [simnalamburt/BinaryToC](https://github.com/simnalamburt/BinaryToC),
       MS COM sample app
     - ActiveX Experience <i class=oh-no></i>
 
-- #### .NET <small>C#, C++/CLI *11*</small>
+- #### .NET Framework <small>C#, C++/CLI *11*</small>
     - [simnalamburt/FateOne][fo], game helper utility
 
-- #### Multi-core Programming <small>CUDA, OpenCL, OpenMP, MPI *12*</small>
+- #### Supercomputer Programming <small>CUDA, OpenCL, OpenMP, MPI *10*</small>
+    - Patching [GADGET-2](http://wwwmpa.mpa-garching.mpg.de/gadget/) for
+      simulating nonsymmetrical elliptical galaxy <i class=private></i>
     - GPU-accelerated NegaScout algorithm <i class=private></i>
     - [PARSEC Benchmark Swaption](https://github.com/simnalamburt/snucse.swaptions),
       targetting [Chundoong](http://chundoong.snu.ac.kr/) supercomputer
@@ -98,6 +145,8 @@ Skills
 - #### Mobile App Development <small>*11*</small>
     - Android <small>Java, Kotlin</small>
     - iOS <small>Objective-C, Swift</small>
+      - [ios-dangerous-webview-practice](https://github.com/simnalamburt/ios-dangerous-webview-practice),
+        sample app to practice bypassing iOS App Transport Security
 
 [`mm_malloc()`]:https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab
 [Intel TBB]:https://www.threadingbuildingblocks.org/
@@ -110,13 +159,25 @@ Skills
 
 Featured works
 --------
--   #### node-kakao <i class=private></i>
+-   #### node-kakao <small>Reverse engineering, Node.js</small> <i class=private></i>
 
     KakaoTalk Client Library written in [node.js]
 
     <img class=rounded src="img/kakao.png">
 
--   #### [`obj-rs`][obj-rs]
+-   #### [cloudkeeper] <small>Reverse engineering, Python</small>
+
+    Keep IRCCloud connection permenantly without paying a fee
+
+    [<img class=rounded src="img/cloudkeeper.jpg">][cloudkeeper]
+
+-   #### [snu.jokbo.me] <small>Python</small> <i class=private></i>
+
+    Issue sharing service
+
+    [<img style="border:#ccc 1px solid" class=rounded src="img/snujokbo.png">][snu.jokbo.me]
+
+-   #### [`obj-rs`][obj-rs] <small>Parser, Rust</small>
 
     Wavefront OBJ parser written in [Rust]
 
@@ -146,6 +207,9 @@ Featured works
 
     - [simnalamburt/snucse](https://github.com/simnalamburt/snucse) <small>Note takings</small>
     - [simnalamburt/snippets](https://github.com/simnalamburt/snippets) <small>Small code snippets</small>
+
+[cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
+[snu.jokbo.me]: https://snu.jokbo.me
 
 <br>
 
