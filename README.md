@@ -7,7 +7,6 @@ configuration.
 ls
 # client/       # Client-side codes
 # public/       # Files which will be statically served
-# dist/         # Webpack build results
 
 cd client/
 
