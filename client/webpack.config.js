@@ -6,6 +6,7 @@ const merge = require('webpack-merge')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const GzipPlugin = require('compression-webpack-plugin')
 const BrotliPlugin = require('brotli-webpack-plugin')
 
@@ -59,8 +60,9 @@ const test = /\.(?:css|js|svg|eot|ttf|html)$/;
 const productionConfigs = {
   plugins: [
     new webpack.LoaderOptionsPlugin({ minimize: true, debug: false }),
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.ModuleConcatenationPlugin(),
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') }),
+    new UglifyJSPlugin(),
     new GzipPlugin({ test, minRatio: 1, algorithm: 'zopfli' }),
     new BrotliPlugin({ test, minRatio: 1 }),
   ]
