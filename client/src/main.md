@@ -3,6 +3,7 @@
 > Open source contributions: **2,919 total** in year 2016
 
 ### Curriculum vitae
+- <small>2017 - now</small> [DEVSISTERS]
 - <small>2016</small> [PATI Games]
   - DevOps
   - Server administrator of [아이러브니키]
@@ -220,6 +221,7 @@ Featured works
   <span id=quote>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</span>
 </small>
 
+[DEVSISTERS]: http://www.devsisters.com/
 [PATI Games]: https://patigames.com/
 [아이러브니키]: https://patigames.com/games/8
 [Byline]: https://www.byline.com/
