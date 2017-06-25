@@ -15,6 +15,7 @@
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.28.0",
     "markdown-loader": "^2.0.0",
+    "postcss-apply": "^0.8.0",
     "postcss-cssnext": "^2.10.0",
     "postcss-loader": "^2.0.6",
     "twitter-text": "^1.13.4",
