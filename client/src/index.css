@@ -11,27 +11,22 @@
 }
 
 /* 'private' and 'oh-no' button */
-:root {
-  --my-button: {
-    display: inline-block;
-    padding: 4px 5px 3px;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 11px;
-    border-radius: 3px;
-    font-style: normal;
-  };
+i.private:after,
+i.oh-no:after {
+  display: inline-block;
+  padding: 4px 5px 3px;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 11px;
+  border-radius: 3px;
+  font-style: normal;
 }
 i.private:after {
-  @apply --my-button;
-
   content: 'PRIVATE';
   color: #a1882b;
   background-color: #ffefc6;
 }
 i.oh-no:after {
-  @apply --my-button;
-
   content: 'OH NO';
   color: #702BA1;
   background-color: #EAC6FF;
