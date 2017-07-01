@@ -67,6 +67,9 @@ const productionConfigs = {
   ]
 }
 
-module.exports = env => env === 'production' ?
-  merge(commonConfigs, productionConfigs) :
-  merge(commonConfigs, devConfigs)
+// Export configs
+module.exports = env =>
+  merge(
+    commonConfigs,
+    env === 'production' ? productionConfigs : devConfigs
+  )
