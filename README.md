@@ -10,18 +10,18 @@ ls
 
 cd client/
 
-npm install         # Download dependencies
-npm run build       # Build front-end codes in production mode
-npm run build:dev   # Build front-end codes in development mode
+yarn            # Download dependencies
+yarn build      # Build front-end codes in production mode
+yarn build:dev  # Build front-end codes in development mode
 
-npm run watch       # Watch for the changes & build front-end
-                    # codes in development mode
+yarn watch      # Watch for the changes & build front-end
+                # codes in development mode
 
-npm start           # Start webpack-dev-server
-                    # See http://localhost:8080
+yarn start      # Start webpack-dev-server
+                # See http://localhost:8080
 
 
-./test              # Hyperlink validator
+./test          # Hyperlink validator
 ```
 
 <br>
