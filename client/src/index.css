@@ -11,8 +11,8 @@
 }
 
 /* 'private' and 'oh-no' button */
-i.private:after,
-i.oh-no:after {
+i.private::after,
+i.oh-no::after {
   display: inline-block;
   padding: 4px 5px 3px;
   font-size: 11px;
@@ -21,12 +21,12 @@ i.oh-no:after {
   border-radius: 3px;
   font-style: normal;
 }
-i.private:after {
+i.private::after {
   content: 'PRIVATE';
   color: #a1882b;
   background-color: #ffefc6;
 }
-i.oh-no:after {
+i.oh-no::after {
   content: 'OH NO';
   color: #702BA1;
   background-color: #EAC6FF;
@@ -119,7 +119,7 @@ header {
           margin-bottom: 0;
           & > small {
             font-weight: normal;
-            &:before { content: '― '; }
+            &::before { content: '― '; }
           }
         }
         & > p {
@@ -135,8 +135,8 @@ header {
     font-weight: normal;
     color: #bbb;
 
-    &:before { content: '20'; }
-    &:after { content: '~'; }
+    &::before { content: '20'; }
+    &::after { content: '~'; }
     @media (--mobile) { display: none; }
   }
 
