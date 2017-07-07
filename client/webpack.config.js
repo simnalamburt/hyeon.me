@@ -3,6 +3,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
+const cssnext = require('postcss-cssnext')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -33,7 +34,12 @@ const commonConfigs = {
       },
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract(['css-loader', 'postcss-loader'])
+        use: ExtractTextPlugin.extract({
+          use: [
+            'css-loader',
+            { loader: 'postcss-loader', options: { plugins: [cssnext] } }
+          ]
+        })
       }
     ]
   },
