@@ -80,7 +80,7 @@ Experience
       - node-kakao, KakaoTalk protocol reverse engineering <i class=private></i>
       - [slate/slate-irc](https://github.com/slate/slate-irc), IRC client
         library made to replace
-        [node-irc](https://github.com/martynsmith/node-irc) which does not event
+        [node-irc](https://github.com/martynsmith/node-irc) which does not even
         support CJK nickname
       - [wbwwb-ko](https://github.com/simnalamburt/wbwwb-ko), Korean translation
         of a minigame "We Become What We Behold", made by Nicky Case
