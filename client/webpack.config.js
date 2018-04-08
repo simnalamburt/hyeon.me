@@ -7,7 +7,7 @@ const cssnext = require('postcss-cssnext')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const GzipPlugin = require('compression-webpack-plugin')
+const ZopfliPlugin = require('zopfli-webpack-plugin')
 const BrotliPlugin = require('brotli-webpack-plugin')
 
 //
@@ -68,7 +68,7 @@ const productionConfigs = {
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.ModuleConcatenationPlugin(),
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') }),
-    new GzipPlugin({ test, minRatio: 1, algorithm: 'zopfli' }),
+    new ZopfliPlugin({ test, minRatio: 1 }),
     new BrotliPlugin({ test, minRatio: 1 }),
   ]
 }
