@@ -3,4 +3,4 @@
 
 # Build results
 /public/static-*
-/public/index.html
+/public/index.html*
