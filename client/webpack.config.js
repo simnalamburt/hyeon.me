@@ -53,7 +53,7 @@ const commonConfigs = {
 //
 // Development-mode configs
 //
-const devConfigs = {
+const development = {
   devtool: 'source-map',
   devServer: { compress: true }
 }
@@ -62,20 +62,16 @@ const devConfigs = {
 // Production-mode configs
 //
 const test = /\.(?:css|js|svg|eot|ttf|html)$/;
-const productionConfigs = {
+const production = {
   plugins: [
     new webpack.LoaderOptionsPlugin({ minimize: true, debug: false }),
-    new webpack.optimize.UglifyJsPlugin(),
-    new webpack.optimize.ModuleConcatenationPlugin(),
-    new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') }),
     new ZopfliPlugin({ test, minRatio: 1 }),
     new BrotliPlugin({ test, minRatio: 1 }),
   ]
 }
 
+
 // Export configs
-module.exports = env =>
-  merge(
-    commonConfigs,
-    env === 'production' ? productionConfigs : devConfigs
-  )
+module.exports = (_, { mode }) => merge(
+  commonConfigs,
+  mode === 'production' ? production : development)
