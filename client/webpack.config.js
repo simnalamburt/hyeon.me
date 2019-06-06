@@ -9,7 +9,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
 const zopfli = require('@gfx/zopfli')
-const BrotliPlugin = require('brotli-webpack-plugin')
 
 //
 // Common configs
@@ -74,7 +73,13 @@ const production = {
       },
       algorithm: zopfli.gzip,
     }),
-    new BrotliPlugin({ test, minRatio: 1 }),
+    new CompressionPlugin({
+      filename: '[path].br[query]',
+      algorithm: 'brotliCompress',
+      test,
+      compressionOptions: { level: 11 },
+      minRatio: 1,
+    }),
   ]
 }
 
