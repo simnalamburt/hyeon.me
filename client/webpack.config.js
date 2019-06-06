@@ -4,7 +4,7 @@ const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const cssnext = require('postcss-cssnext')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
@@ -44,7 +44,9 @@ const commonConfigs = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['../public/static-*'], { allowExternal: true }),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['static-*'],
+    }),
     new ExtractTextPlugin('static-[hash].css'),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
