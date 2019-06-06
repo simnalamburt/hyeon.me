@@ -31,6 +31,10 @@ const commonConfigs = {
         use: 'file-loader?name=static-[hash].[ext]',
       },
       {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
+      {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
