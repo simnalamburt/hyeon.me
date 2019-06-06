@@ -7,7 +7,7 @@
 - <small>2016</small> [PATI Games]
   - DevOps
   - Server administrator of [아이러브니키]
-  - [ISMS](https://isms.kisa.or.kr/main/) 심사 대응팀
+  - [ISMS] 심사 대응팀
 - <small>2014</small> [Byline]
   - Starting Member
   - Main developer, server administrator
@@ -42,10 +42,10 @@ Experience
     - Currently managing 6 physical servers:
       - [hyeon.me](https://hyeon.me)
       - [kuma.hyeon.me](https://kuma.hyeon.me)
-      - [uriel.upnl.org](https://uriel.upnl.org) <i class=private></i>
-      - [sodrak.upnl.org](http://sodrak.upnl.org)
-      - [gemini.upnl.org](http://gemini.upnl.org)
-      - [edhelbroy.upnl.org](http://edhelbroy.upnl.org)
+      - [sodrak.upnl.org](https://sodrak.upnl.org)
+      - [gemini.upnl.org](https://gemini.upnl.org)
+      - uriel.upnl.org <i class=private></i>
+      - edhelbroy.upnl.org <i class=private></i>
     - Legacy system experience <small>Solaris 10, IBM AIX 6.1</small>
     - [simnalamburt/nginx.conf](https://github.com/simnalamburt/nginx.conf),
       my nginx configuration, published according to the Kerchoff's principle
@@ -73,9 +73,9 @@ Experience
     - Python <small>Flask, SQLAlchemy</small>
       - [snu.jokbo.me], issue sharing service <i class=private></i>
       - [cloudkeeper], IRCCloud reverse engineering
-      - [pipenv](https://github.com/kennethreitz/pipenv) contribution:
-        [#228](https://github.com/kennethreitz/pipenv/issues/228)
-        [#238](https://github.com/kennethreitz/pipenv/pull/238)
+      - [pipenv](https://github.com/pypa/pipenv) contribution:
+        [#228](https://github.com/pypa/pipenv/issues/228)
+        [#238](https://github.com/pypa/pipenv/pull/238)
     - ECMAScript <small>browser, Node.js</small>
       - node-kakao, KakaoTalk protocol reverse engineering <i class=private></i>
       - [slate/slate-irc](https://github.com/slate/slate-irc), IRC client
@@ -84,16 +84,16 @@ Experience
         support CJK nickname
       - [wbwwb-ko](https://github.com/simnalamburt/wbwwb-ko), Korean translation
         of a minigame "We Become What We Behold", made by Nicky Case
-      - [noraesae/pen](https://github.com/noraesae/pen/commits?author=simnalamburt)
+      - [utatti/pen](https://github.com/utatti/pen/commits?author=simnalamburt)
         contribution:
-        [#4](https://github.com/noraesae/pen/issues/4)
-        [#5](https://github.com/noraesae/pen/issues/5)
-        [#6](https://github.com/noraesae/pen/issues/6)
-        [#7](https://github.com/noraesae/pen/issues/7)
-        [#8](https://github.com/noraesae/pen/issues/8)
-        [#9](https://github.com/noraesae/pen/issues/9)
-        [#10](https://github.com/noraesae/pen/issues/10)
-        [#11](https://github.com/noraesae/pen/issues/11)
+        [#4](https://github.com/utatti/pen/issues/4)
+        [#5](https://github.com/utatti/pen/pull/5)
+        [#6](https://github.com/utatti/pen/issues/6)
+        [#7](https://github.com/utatti/pen/issues/7)
+        [#8](https://github.com/utatti/pen/pull/8)
+        [#9](https://github.com/utatti/pen/pull/9)
+        [#10](https://github.com/utatti/pen/issues/10)
+        [#11](https://github.com/utatti/pen/pull/11)
     - Go
       - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) contribution:
         [#96](https://github.com/denisenkom/go-mssqldb/issues/96)
@@ -135,7 +135,7 @@ Experience
     - [simnalamburt/FateOne][fo], game helper utility
 
 - #### Supercomputer Programming <small>CUDA, OpenCL, OpenMP, MPI *10*</small>
-    - Patching [GADGET-2](http://wwwmpa.mpa-garching.mpg.de/gadget/) for
+    - Patching [GADGET-2](https://wwwmpa.mpa-garching.mpg.de/gadget/) for
       simulating nonsymmetrical elliptical galaxy <i class=private></i>
     - GPU-accelerated NegaScout algorithm <i class=private></i>
     - [PARSEC Benchmark Swaption](https://github.com/simnalamburt/snucse.swaptions),
@@ -220,14 +220,15 @@ Featured works
   <span id=quote>Things are beautiful if you love them. ― _[Jean Anouilh]_</span>
 </small>
 
-[DEVSISTERS]: http://www.devsisters.com/
+[DEVSISTERS]: https://www.devsisters.com/
 [PATI Games]: https://patigames.com/
+[ISMS]: https://isms.kisa.or.kr/main/
 [아이러브니키]: https://patigames.com/games/8
 [Byline]: https://www.byline.com/
 [snu]: http://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
 [bacchus]: https://bacchus.snucse.org/about/
-[UPnL]: http://upnl.org/
+[UPnL]: https://upnl.org/
 [GitHub]: https://github.com/simnalamburt
 [obj-rs]: https://github.com/simnalamburt/obj-rs
 [node.js]: https://nodejs.org/
