@@ -216,9 +216,8 @@ Featured works
 
 --------
 
-<small style="display: block">
-  <span id=license>[AGPLv3 License][li]</span>
-  <span id=quote>Things are beautiful if you love them. ― *[Jean Anouilh][jean]*</span>
+<small style="display: block"><span id=license>[AGPLv3 License][li]</span>
+  <span id=quote>Things are beautiful if you love them. ― _[Jean Anouilh][jean]_</span>
 </small>
 
 [DEVSISTERS]: http://www.devsisters.com/
