@@ -2,7 +2,8 @@
   "scripts": {
     "build": "webpack-cli --mode=production",
     "build:dev": "webpack-cli --mode=development",
-    "watch": "webpack-cli --watch --mode=development"
+    "watch": "webpack-cli --watch --mode=development",
+    "test": "node test"
   },
   "devDependencies": {
     "@gfx/zopfli": "^1.0.13",
