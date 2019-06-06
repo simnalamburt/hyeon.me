@@ -7,7 +7,8 @@ const cssnext = require('postcss-cssnext')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ZopfliPlugin = require('zopfli-webpack-plugin')
+const CompressionPlugin = require('compression-webpack-plugin')
+const zopfli = require('@gfx/zopfli')
 const BrotliPlugin = require('brotli-webpack-plugin')
 
 //
@@ -65,7 +66,14 @@ const test = /\.(?:css|js|svg|eot|ttf|html)$/;
 const production = {
   plugins: [
     new webpack.LoaderOptionsPlugin({ minimize: true, debug: false }),
-    new ZopfliPlugin({ test, minRatio: 1 }),
+    new CompressionPlugin({
+      test,
+      minRatio: 1,
+      compressionOptions: {
+        numiterations: 15,
+      },
+      algorithm: zopfli.gzip,
+    }),
     new BrotliPlugin({ test, minRatio: 1 }),
   ]
 }
