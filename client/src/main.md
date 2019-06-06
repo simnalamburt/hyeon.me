@@ -19,7 +19,7 @@
 - <small>2010 - 2013</small> 경기과학고등학교
   - <small>2011</small> 한국정보올림피아드 공모대회 동상
 
-<br>
+&nbsp;
 
 Experience
 --------
@@ -156,7 +156,7 @@ Experience
 [simnalamburt/xmath]:https://github.com/simnalamburt/xmath
 [Rust]: https://www.rust-lang.org
 
-<br>
+&nbsp;
 
 Featured works
 --------
@@ -202,7 +202,7 @@ Featured works
 
     [<img class=rounded src="img/dotfiles.png">][dotfiles]
 
--   <br>
+-   &nbsp;
 
     ###### <i class="fa fa-github"></i> Please visit my [GitHub] profile to see more works!
 
@@ -212,12 +212,12 @@ Featured works
 [cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
 [snu.jokbo.me]: https://snu.jokbo.me
 
-<br>
+&nbsp;
 
 --------
 
-<small style="display: block"><span id=license>[AGPLv3 License][li]</span>
-  <span id=quote>Things are beautiful if you love them. ― _[Jean Anouilh][jean]_</span>
+<small style="display: block"><span id=license>[AGPLv3 License]</span>
+  <span id=quote>Things are beautiful if you love them. ― _[Jean Anouilh]_</span>
 </small>
 
 [DEVSISTERS]: http://www.devsisters.com/
@@ -235,6 +235,5 @@ Featured works
 [sr]: https://github.com/simnalamburt/SoftwareRasterizer
 [fo]: https://github.com/simnalamburt/FateOne
 [dotfiles]: https://github.com/simnalamburt/.dotfiles
-[Othello AI]: https://en.wikipedia.org/wiki/Computer_Othello
-[jean]: https://en.wikipedia.org/wiki/Jean_Anouilh
-[li]: https://github.com/simnalamburt/hyeon.me/blob/master/LICENSE
+[Jean Anouilh]: https://en.wikipedia.org/wiki/Jean_Anouilh
+[AGPLv3 License]: https://github.com/simnalamburt/hyeon.me/blob/master/LICENSE
