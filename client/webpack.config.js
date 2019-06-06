@@ -63,7 +63,6 @@ const commonConfigs = {
 //
 const development = {
   devtool: 'source-map',
-  devServer: { compress: true }
 }
 
 //
