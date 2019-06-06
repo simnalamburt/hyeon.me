@@ -1,18 +1,17 @@
-/* Always use border-box */
+// Always use border-box
 * { box-sizing: border-box; }
 
-/* Custom markdown style */
+// Custom markdown style
 .markdown-body small { color: gray; }
 
-/* Rounded DOM */
+// Rounded DOM
 .rounded {
   border-radius: 5px;
   overflow: hidden;
 }
 
-/* 'private' and 'oh-no' button */
-i.private::after,
-i.oh-no::after {
+// 'private' and 'oh-no' button
+@mixin my-badge {
   display: inline-block;
   padding: 4px 5px 3px;
   font-size: 11px;
@@ -22,52 +21,48 @@ i.oh-no::after {
   font-style: normal;
 }
 i.private::after {
+  @include my-badge;
   content: 'PRIVATE';
   color: #a1882b;
   background-color: #ffefc6;
 }
 i.oh-no::after {
+  @include my-badge;
   content: 'OH NO';
   color: #702BA1;
   background-color: #EAC6FF;
 }
 
+// Layout
+$pagesize: 890px;
+$padding: 20px;
+$header-color: #eee;
+$mobile: unquote("max-width: 600px");
+$not-mobile: unquote("min-width: 601px");
 
-
-/* Layout */
-:root {
-  --pagesize: 890px;
-  --padding: 20px;
-
-  --header-color: #eee;
-}
-
-@custom-media --mobile (width <= 600px);
-@custom-media --not-mobile (width > 600px);
-
-@media (--mobile) {
-  /* Hide github corner on small screen */
+@media ($mobile) {
+  // Hide github corner on small screen
   .github-corner { display: none; }
-  /* Use smaller font in small screen */
+  // Use smaller font in small screen
   .markdown-body{ font-size: 14px; }
 }
 
 header {
-  background: var(--header-color);
+  background: $header-color;
 
   & > div {
-    max-width: var(--pagesize);
+    max-width: $pagesize;
     margin: 0 auto;
-    padding: 20px var(--padding);
-    @media (--not-mobile) {
+    padding: 20px $padding;
+    @media ($not-mobile) {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     & > a {
-      background: var(--header-color);
-      @media (--mobile) { float: left; }
+      background: $header-color;
+      @media ($mobile) { float: left; }
 
       & > img#me {
         width: 190px;
@@ -75,8 +70,8 @@ header {
         margin-right: 20px;
         border-radius: 10px;
 
-        /* Use smaller profile picture on small screen */
-        @media (--mobile) {
+        // Use smaller profile picture on small screen
+        @media ($mobile) {
           width: 83px;
           height: 83px;
           margin-right: 15px;
@@ -90,15 +85,15 @@ header {
     flex-grow: 1;
     & h1 { border-color: #d4d4d4; }
 
-    /* Do not display Korean name on small screen */
-    @media (--mobile) { & > h1 > small { display: none; } }
+    // Do not display Korean name on small screen
+    @media ($mobile) { & > h1 > small { display: none; } }
   }
 }
 
 #main {
-  max-width: var(--pagesize);
+  max-width: $pagesize;
   margin: 0 auto;
-  padding: 20px var(--padding) 100px;
+  padding: 20px $padding 100px;
 
   & #featured-works {
     margin-bottom: 0;
@@ -107,7 +102,7 @@ header {
       list-style: none;
       padding-left: 0;
 
-      @media (--not-mobile), print {
+      @media ($not-mobile), print {
         columns: 2;
         column-gap: 40px;
       }
@@ -137,20 +132,18 @@ header {
 
     &::before { content: '20'; }
     &::after { content: '~'; }
-    @media (--mobile) { display: none; }
+    @media ($mobile) { display: none; }
   }
 
   & #quote {
     float: right;
   }
 
-  /* Do not display license info on small screen */
-  @media (--mobile) { & #license { display: none; } }
-
+  // Do not display license info on small screen
+  @media ($mobile) { & #license { display: none; } }
 }
 
-
-/* CSS Rules to print hyeon.me beautifully */
+// CSS rules for printer
 @page {
   size: A4 portrait;
 }

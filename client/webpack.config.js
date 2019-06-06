@@ -3,12 +3,12 @@
 const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
-const cssnext = require('postcss-cssnext')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
 const zopfli = require('@gfx/zopfli')
+const sass = require('sass')
 
 //
 // Common configs
@@ -33,11 +33,16 @@ const commonConfigs = {
         use: 'file-loader?name=static-[hash].[ext]'
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          { loader: 'postcss-loader', options: { plugins: [cssnext] } }
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: sass
+            }
+          }
         ]
       }
     ]
