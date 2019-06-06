@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const merge = require('webpack-merge')
 const cssnext = require('postcss-cssnext')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
 const zopfli = require('@gfx/zopfli')
@@ -34,12 +34,11 @@ const commonConfigs = {
       },
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          use: [
-            'css-loader',
-            { loader: 'postcss-loader', options: { plugins: [cssnext] } }
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          { loader: 'postcss-loader', options: { plugins: [cssnext] } }
+        ]
       }
     ]
   },
@@ -47,7 +46,9 @@ const commonConfigs = {
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['static-*'],
     }),
-    new ExtractTextPlugin('static-[hash].css'),
+    new MiniCssExtractPlugin({
+      filename: 'static-[hash].css',
+    }),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
 }
