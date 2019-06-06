@@ -1,8 +1,12 @@
 // Always use border-box
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 // Custom markdown style
-.markdown-body small { color: gray; }
+.markdown-body small {
+  color: gray;
+}
 
 // Rounded DOM
 .rounded {
@@ -29,22 +33,26 @@ i.private::after {
 i.oh-no::after {
   @include my-badge;
   content: 'OH NO';
-  color: #702BA1;
-  background-color: #EAC6FF;
+  color: #702ba1;
+  background-color: #eac6ff;
 }
 
 // Layout
 $pagesize: 890px;
 $padding: 20px;
 $header-color: #eee;
-$mobile: unquote("max-width: 600px");
-$not-mobile: unquote("min-width: 601px");
+$mobile: unquote('max-width: 600px');
+$not-mobile: unquote('min-width: 601px');
 
 @media ($mobile) {
   // Hide github corner on small screen
-  .github-corner { display: none; }
+  .github-corner {
+    display: none;
+  }
   // Use smaller font in small screen
-  .markdown-body{ font-size: 14px; }
+  .markdown-body {
+    font-size: 14px;
+  }
 }
 
 header {
@@ -62,7 +70,9 @@ header {
 
     & > a {
       background: $header-color;
-      @media ($mobile) { float: left; }
+      @media ($mobile) {
+        float: left;
+      }
 
       & > img#me {
         width: 190px;
@@ -83,10 +93,16 @@ header {
 
   & #header {
     flex-grow: 1;
-    & h1 { border-color: #d4d4d4; }
+    & h1 {
+      border-color: #d4d4d4;
+    }
 
     // Do not display Korean name on small screen
-    @media ($mobile) { & > h1 > small { display: none; } }
+    @media ($mobile) {
+      & > h1 > small {
+        display: none;
+      }
+    }
   }
 }
 
@@ -114,7 +130,9 @@ header {
           margin-bottom: 0;
           & > small {
             font-weight: normal;
-            &::before { content: '― '; }
+            &::before {
+              content: '― ';
+            }
           }
         }
         & > p {
@@ -130,9 +148,15 @@ header {
     font-weight: normal;
     color: #bbb;
 
-    &::before { content: '20'; }
-    &::after { content: '~'; }
-    @media ($mobile) { display: none; }
+    &::before {
+      content: '20';
+    }
+    &::after {
+      content: '~';
+    }
+    @media ($mobile) {
+      display: none;
+    }
   }
 
   & #quote {
@@ -140,7 +164,11 @@ header {
   }
 
   // Do not display license info on small screen
-  @media ($mobile) { & #license { display: none; } }
+  @media ($mobile) {
+    & #license {
+      display: none;
+    }
+  }
 }
 
 // CSS rules for printer

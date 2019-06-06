@@ -17,20 +17,18 @@ const commonConfigs = {
   entry: './src/index.js',
   output: {
     filename: 'static-[hash].js',
-    path: path.resolve(__dirname, '../public')
+    path: path.resolve(__dirname, '../public'),
   },
   module: {
     rules: [
       {
-        test: /\.md$/, use: [
-          { loader: 'html-loader' },
-          { loader: 'markdown-loader' },
-        ]
+        test: /\.md$/,
+        use: [{ loader: 'html-loader' }, { loader: 'markdown-loader' }],
       },
       { test: /\.html$/, use: 'html-loader' },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
-        use: 'file-loader?name=static-[hash].[ext]'
+        use: 'file-loader?name=static-[hash].[ext]',
       },
       {
         test: /\.scss$/,
@@ -40,12 +38,12 @@ const commonConfigs = {
           {
             loader: 'sass-loader',
             options: {
-              implementation: sass
-            }
-          }
-        ]
-      }
-    ]
+              implementation: sass,
+            },
+          },
+        ],
+      },
+    ],
   },
   plugins: [
     new CleanWebpackPlugin({
@@ -68,7 +66,7 @@ const development = {
 //
 // Production-mode configs
 //
-const test = /\.(?:css|js|svg|eot|ttf|html)$/;
+const test = /\.(?:css|js|svg|eot|ttf|html)$/
 const production = {
   plugins: [
     new webpack.LoaderOptionsPlugin({ minimize: true, debug: false }),
@@ -87,11 +85,9 @@ const production = {
       compressionOptions: { level: 11 },
       minRatio: 1,
     }),
-  ]
+  ],
 }
 
-
 // Export configs
-module.exports = (_, { mode }) => merge(
-  commonConfigs,
-  mode === 'production' ? production : development)
+module.exports = (_, { mode }) =>
+  merge(commonConfigs, mode === 'production' ? production : development)
