@@ -4,8 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>hyeonme</title>
-  <link rel="stylesheet" href="lib/github-markdown-css/github-markdown.css" type="text/css" media="all">
-  <link rel="stylesheet" href="main.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@2.0.8/github-markdown.min.css">
+  <style>
+  body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  body > article {
+    max-width: 739px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  body > article small {
+    color: gray;
+  }
+
+  @media (max-width: 500px) {
+    #ribbon {
+      display: none;
+    }
+  }
+
+  @media (min-width: 501px) {
+    #ribbon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: 0;
+    }
+  }
+  </style>
 </head>
 <body>
   <a href="https://github.com/simnalamburt/hyeon.me"><img
