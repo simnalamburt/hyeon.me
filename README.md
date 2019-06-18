@@ -2,11 +2,14 @@
 ========
 
 ```bash
-npm i
+# Install dependencies
+yarn
 
-npm run build   # Build
+# Build files
+yarn build
 open index.html
 
-npm start       # Build in watch mode
-                # Go to http://localhost:8080/webpack-dev-server/
+# Build in watch mode
+# See http://localhost:8080/webpack-dev-server/
+yarn start
 ```
