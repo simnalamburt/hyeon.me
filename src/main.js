@@ -1,4 +1,3 @@
-// @flow
 import main from './main.md'
 
 import 'normalize.css/normalize.css'
