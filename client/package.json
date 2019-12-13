@@ -4,6 +4,8 @@
     "build": "webpack-cli --mode=production",
     "build:dev": "webpack-cli --mode=development",
     "watch": "webpack-cli --watch --mode=development",
+    "prettier": "prettier --check '**/*.{json,js,scss}'",
+    "prettier:fix": "prettier --write '**/*.{json,js,scss}'",
     "test": "node test"
   },
   "devDependencies": {
