@@ -28,7 +28,15 @@ const commonConfigs = {
       { test: /\.html$/, use: 'html-loader' },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
-        use: 'file-loader?name=static-[hash].[ext]',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'static-[hash].[ext]',
+              esModule: false,
+            },
+          },
+        ],
       },
       {
         test: /\.css$/,
