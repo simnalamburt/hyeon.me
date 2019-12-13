@@ -5,7 +5,7 @@ Hyeon Kim <small>김지현</small>
 <small><a class="fa fa-lg fa-github" href="https://github.com/simnalamburt"></a>
 <a class="fa fa-lg fa-facebook-official" href="https://www.facebook.com/simnalamburt"></a>
 <a class="fa fa-lg fa-twitter" href="https://twitter.com/simnalamburt"></a>
-&nbsp;_<simnalamburt@gmail.com>_ \
+&nbsp;<simnalamburt@gmail.com> \
 [keybase] | [gem] | [npm] | [Speaker Deck] \
 [한국 러스트 사용자 그룹] | [한국 하스켈 모임] \
 </small>
