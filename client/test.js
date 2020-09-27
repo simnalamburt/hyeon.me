@@ -16,15 +16,20 @@ fs.readFile(filepath, (err, data) => {
   if (err) {
     throw err
   }
-  twitter.extractUrls(data.toString(), /https?/).map(url => {
+  twitter.extractUrls(data.toString(), /https?/).map((url) => {
     const scheme = url.startsWith('https:') ? https : http
     scheme
-      .get(url, res => {
+      .get(url, (res) => {
         const stat = res.statusCode
-        const c = 200 <= stat && stat < 300 ? green : 100 <= stat && stat < 400 ? yellow : red
+        const c =
+          200 <= stat && stat < 300
+            ? green
+            : 100 <= stat && stat < 400
+            ? yellow
+            : red
         console.log(`${c}${stat}   - ${url} (${res.statusMessage})${reset}`)
       })
-      .on('error', e => {
+      .on('error', (e) => {
         console.log(`${red}ERROR - ${url} (${e})${reset}`)
       })
   })
