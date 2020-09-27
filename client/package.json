@@ -9,7 +9,6 @@
     "test": "node test"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^3",
     "css-loader": "^4.3.0",
     "file-loader": "^6.1.0",
     "html-loader": "^1.3.1",
