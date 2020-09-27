@@ -3,7 +3,7 @@
 > Open source contributions: **2,919 total** in year 2016
 
 ### Curriculum vitae
-- <small>2017 - now</small> [DEVSISTERS]
+- <small>2017 - 2019</small> [DEVSISTERS]
 - <small>2016</small> [PATI Games]
   - DevOps
   - Server administrator of [아이러브니키]
