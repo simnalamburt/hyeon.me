@@ -11,15 +11,12 @@ cd client/
 
 yarn            # Download dependencies
 yarn build      # Build front-end codes in production mode
-yarn build:dev  # Build front-end codes in development mode
+yarn dev
 
-yarn watch      # Watch for the changes & build front-end
-                # codes in development mode
+yarn test
+yarn fmt
 
-yarn prettier
-yarn prettier:fix
-
-yarn test       # Hyperlink validator
+# TODO: Run test.js
 ```
 
 &nbsp;

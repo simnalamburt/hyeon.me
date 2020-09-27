@@ -1,12 +1,10 @@
 {
   "license": "AGPL-3.0",
   "scripts": {
-    "build": "webpack-cli --mode=production",
-    "build:dev": "webpack-cli --mode=development",
-    "watch": "webpack-cli --watch --mode=development",
-    "prettier": "prettier --check '**/*.{json,js,scss}'",
-    "prettier:fix": "prettier --write '**/*.{json,js,scss}'",
-    "test": "node test"
+    "build": "webpack-cli --mode=production --progress",
+    "dev": "webpack-cli --mode=development --watch",
+    "test": "prettier --check '**/*.{json,js,scss}'",
+    "fmt": "prettier --write '**/*.{json,js,scss}'"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
