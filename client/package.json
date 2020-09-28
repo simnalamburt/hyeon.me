@@ -3,7 +3,7 @@
   "scripts": {
     "build": "webpack-cli --mode=production --progress",
     "dev": "webpack-cli --mode=development --watch",
-    "test": "prettier --check .",
+    "test": "tsc --noEmit && prettier --check .",
     "fmt": "prettier --write ."
   },
   "devDependencies": {

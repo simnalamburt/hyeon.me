@@ -9,6 +9,6 @@ import 'font-awesome/css/font-awesome.css'
 import './index.scss'
 
 // Render markdown
-document.getElementById('me').src = profile
-document.getElementById('header').innerHTML = header
-document.getElementById('main').innerHTML = main
+;(document.getElementById('me') as HTMLImageElement).src = profile
+document.getElementById('header')!.innerHTML = header
+document.getElementById('main')!.innerHTML = main
