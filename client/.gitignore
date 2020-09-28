@@ -5,6 +5,3 @@
 !/.yarn/sdks
 !/.yarn/versions
 /.pnp.*
-
-# Dependencies
-/node_modules
