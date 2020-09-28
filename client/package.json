@@ -3,8 +3,8 @@
   "scripts": {
     "build": "webpack-cli --mode=production --progress",
     "dev": "webpack-cli --mode=development --watch",
-    "test": "prettier --check '**/*.{json,js,scss}'",
-    "fmt": "prettier --write '**/*.{json,js,scss}'"
+    "test": "prettier --check .",
+    "fmt": "prettier --write ."
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
