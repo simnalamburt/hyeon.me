@@ -25,10 +25,6 @@ module.exports = {
         use: [{ loader: 'html-loader' }, { loader: 'markdown-loader' }],
       },
       {
-        test: /\.html$/,
-        use: 'html-loader',
-      },
-      {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
         use: [
           {
