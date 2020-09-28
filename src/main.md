@@ -39,13 +39,11 @@ Experience
 - #### Server Administration <small>Ubuntu, CentOS, Arch, Windows, ... *13*</small>
     - Experience of large-scale server admin <small>AWS, CCU ~50,000</small>
     - Container orchestration <small>docker, rkt, CoreOS, Kubernetes</small>
-    - Currently managing 6 physical servers:
-      - [hyeon.me](https://hyeon.me)
-      - [kuma.hyeon.me](https://kuma.hyeon.me)
-      - [sodrak.upnl.org](https://sodrak.upnl.org)
-      - [gemini.upnl.org](https://gemini.upnl.org)
-      - uriel.upnl.org <i class=private></i>
-      - edhelbroy.upnl.org <i class=private></i>
+    - Currently managing several services and servers:
+      - [hyeon.me](https://hyeon.me), and personal servers
+      - [gemini.upnl.org](https://gemini.upnl.org), [sodrak.upnl.org](https://sodrak.upnl.org), edhelbroy.upnl.org <i class=private></i>
+      - 3rd-party MediaWiki instance
+      - Other private serivces and instances, etc
     - Legacy system experience <small>Solaris 10, IBM AIX 6.1</small>
     - [simnalamburt/nginx.conf](https://github.com/simnalamburt/nginx.conf),
       my nginx configuration, published according to the Kerchoff's principle
@@ -82,17 +80,13 @@ Experience
         library made to replace
         [node-irc](https://github.com/martynsmith/node-irc) which does not even
         support CJK nickname
-      - [wbwwb-ko](https://github.com/simnalamburt/wbwwb-ko), Korean translation
+      - [wbwwb-ko](https://github.com/simnalamburt/game.hyeon.me), Korean translation
         of a minigame "We Become What We Behold", made by Nicky Case
       - [utatti/pen](https://github.com/utatti/pen/commits?author=simnalamburt)
         contribution:
-        [#4](https://github.com/utatti/pen/issues/4)
         [#5](https://github.com/utatti/pen/pull/5)
-        [#6](https://github.com/utatti/pen/issues/6)
-        [#7](https://github.com/utatti/pen/issues/7)
         [#8](https://github.com/utatti/pen/pull/8)
         [#9](https://github.com/utatti/pen/pull/9)
-        [#10](https://github.com/utatti/pen/issues/10)
         [#11](https://github.com/utatti/pen/pull/11)
     - Go
       - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) contribution:
@@ -149,11 +143,11 @@ Experience
       - [ios-dangerous-webview-practice](https://github.com/simnalamburt/ios-dangerous-webview-practice),
         sample app to practice bypassing iOS App Transport Security
 
-[`mm_malloc()`]:https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab
-[Intel TBB]:https://www.threadingbuildingblocks.org/
-[simnalamburt/obj-rs]:https://github.com/simnalamburt/obj-rs
-[Wavefront .obj file]:https://en.wikipedia.org/wiki/Wavefront_.obj_file
-[simnalamburt/xmath]:https://github.com/simnalamburt/xmath
+[`mm_malloc()`]: https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab
+[Intel TBB]: https://github.com/oneapi-src/oneTBB
+[simnalamburt/obj-rs]: https://github.com/simnalamburt/obj-rs
+[Wavefront .obj file]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
+[simnalamburt/xmath]: https://github.com/simnalamburt/xmath
 [Rust]: https://www.rust-lang.org
 
 &nbsp;
@@ -224,7 +218,7 @@ Featured works
 [PATI Games]: https://patigames.com/
 [ISMS]: https://isms.kisa.or.kr/main/
 [아이러브니키]: https://patigames.com/games/8
-[Byline]: https://www.byline.com/
+[Byline]: https://byline.com/
 [snu]: http://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
 [bacchus]: https://bacchus.snucse.org/about/
@@ -237,4 +231,4 @@ Featured works
 [fo]: https://github.com/simnalamburt/FateOne
 [dotfiles]: https://github.com/simnalamburt/.dotfiles
 [Jean Anouilh]: https://en.wikipedia.org/wiki/Jean_Anouilh
-[AGPLv3 License]: https://github.com/simnalamburt/hyeon.me/blob/master/LICENSE
+[AGPLv3 License]: https://github.com/simnalamburt/hyeon.me/blob/main/LICENSE
