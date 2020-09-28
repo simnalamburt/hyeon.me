@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'static-[hash].js',
+    filename: 'static-[contenthash].js',
     path: path.resolve(__dirname, '../public'),
     publicPath: '/',
   },
@@ -24,7 +24,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'static-[hash].[ext]',
+              name: 'static-[contenthash].[ext]',
               esModule: false,
             },
           },
@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'static-[hash].css',
+      filename: 'static-[contenthash].css',
     }),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
