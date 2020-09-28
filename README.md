@@ -3,20 +3,14 @@
 My personal webpage.
 
 ```bash
-ls
-# client/       # Client-side codes
-# public/       # Files which will be statically served
-
-cd client/
-
-yarn            # Download dependencies
-yarn build      # Build front-end codes in production mode
+yarn
+yarn build
 yarn dev
 
 yarn test
 yarn fmt
 
-# TODO: Run test.js
+yarn node util/test.js
 ```
 
 &nbsp;
