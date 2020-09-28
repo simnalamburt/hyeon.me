@@ -1,13 +1,11 @@
 'use strict'
 
-const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   output: {
     filename: 'static-[contenthash].js',
-    path: path.resolve(__dirname, '../public'),
     publicPath: '/',
   },
   resolve: {

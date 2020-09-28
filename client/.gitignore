@@ -5,3 +5,7 @@
 !/.yarn/sdks
 !/.yarn/versions
 /.pnp.*
+
+# Webpack
+/dist/static-*
+/dist/index.html

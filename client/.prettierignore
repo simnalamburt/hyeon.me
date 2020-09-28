@@ -5,3 +5,7 @@
 
 # Markdowns
 *.md
+
+# Webpack
+/dist/static-*
+/dist/index.html
