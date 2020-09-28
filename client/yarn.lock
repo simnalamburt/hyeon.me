@@ -588,7 +588,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:~3.0.2":
+"braces@npm:^3.0.1, braces@npm:~3.0.2":
   version: 3.0.2
   resolution: "braces@npm:3.0.2"
   dependencies:
@@ -677,7 +677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.4.2":
+"chalk@npm:^2.3.0, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -1147,7 +1147,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^4.1.1":
+"enhanced-resolve@npm:^4.0.0, enhanced-resolve@npm:^4.1.1":
   version: 4.3.0
   resolution: "enhanced-resolve@npm:4.3.0"
   dependencies:
@@ -2316,7 +2316,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^1.1.0, loader-utils@npm:^1.2.3, loader-utils@npm:^1.4.0":
+"loader-utils@npm:^1.0.2, loader-utils@npm:^1.1.0, loader-utils@npm:^1.2.3, loader-utils@npm:^1.4.0":
   version: 1.4.0
   resolution: "loader-utils@npm:1.4.0"
   dependencies:
@@ -2461,6 +2461,16 @@ fsevents@~2.1.2:
     snapdragon: ^0.8.1
     to-regex: ^3.0.2
   checksum: a60e73539a3ac6c6231f11642257a460861302df5986a94fd418d1b64a817409cda778d7023b53541a2091b523eda2c6f7212721e380d0b696284b7ca0a45bda
+  languageName: node
+  linkType: hard
+
+"micromatch@npm:^4.0.0":
+  version: 4.0.2
+  resolution: "micromatch@npm:4.0.2"
+  dependencies:
+    braces: ^3.0.1
+    picomatch: ^2.0.5
+  checksum: 0cb0e11d647cbb65e398a0a8a1340a7fb751ae2722346219c435704cfac8b3275a94a6464236fe867f52ad46a24046d3bc4ac11b3d21ddb73bc44e27cf1e4904
   languageName: node
   linkType: hard
 
@@ -2944,7 +2954,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.0.5, picomatch@npm:^2.2.1":
   version: 2.2.2
   resolution: "picomatch@npm:2.2.2"
   checksum: 20fa75e0a58b39d83425b3db68744d5f6f361fd4fd66ec7745d884036d502abba0d553a637703af79939b844164b13e60eea339ccb043d7fbd74c3da2592b864
@@ -3347,7 +3357,9 @@ fsevents@~2.1.2:
     prettier: ^2.1.2
     sass: ^1.20.3
     sass-loader: ^10.0.2
+    ts-loader: ^8.0.4
     twitter-text: ^3
+    typescript: ^4.0.3
     webpack: ^5.0.0-rc.0
     webpack-cli: ^3
   languageName: unknown
@@ -3906,6 +3918,21 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"ts-loader@npm:^8.0.4":
+  version: 8.0.4
+  resolution: "ts-loader@npm:8.0.4"
+  dependencies:
+    chalk: ^2.3.0
+    enhanced-resolve: ^4.0.0
+    loader-utils: ^1.0.2
+    micromatch: ^4.0.0
+    semver: ^6.0.0
+  peerDependencies:
+    typescript: "*"
+  checksum: 2cfdba8538d076fc851ea2ebf02aa39d859e4e62d509fe2004a06c867f5861d7f9cd43ea3b471a09a03b386da0e94a37727400efa7087f814a8d3c6fde431ed1
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.10.0, tslib@npm:^1.9.0":
   version: 1.13.0
   resolution: "tslib@npm:1.13.0"
@@ -3945,6 +3972,26 @@ fsevents@~2.1.2:
     punycode: 1.4.1
     twemoji-parser: ^11.0.2
   checksum: a77ab65f2b6942ff7882c29e81fa8214a77dbbd1db5dfd9c07209ee42acbc4cbb2caa42fe550193c5f342e8ec529366caf2aa69ccfb97d2cc8e66b94020bdb76
+  languageName: node
+  linkType: hard
+
+typescript@^4.0.3:
+  version: 4.0.3
+  resolution: "typescript@npm:4.0.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 5c892e132756a83d22030d7fb38be47cde27613f71d233dbe7faf79e4a92852c5146bfddcaf8c2da1a37d35ae8bf7b8c888fdcd763d5ad184cea6b21e7466838
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
+  version: 4.0.3
+  resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 72db87d09f728c83062d64b5e12ed52effb6278963b6bc5c006219b22c104e02b8ce80164261de554923d3c47d894a1ca937ed542328caccb83ebaedeae98a69
   languageName: node
   linkType: hard
 
