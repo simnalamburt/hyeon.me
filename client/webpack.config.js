@@ -33,7 +33,7 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: { name: 'static-[contenthash].[ext]', esModule: false },
+            options: { name: 'static-[contenthash].[ext]' },
           },
         ],
       },
