@@ -24,16 +24,16 @@ module.exports = {
         test: /\.md$/,
         use: [{ loader: 'html-loader' }, { loader: 'markdown-loader' }],
       },
-      { test: /\.html$/, use: 'html-loader' },
+      {
+        test: /\.html$/,
+        use: 'html-loader',
+      },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: 'static-[contenthash].[ext]',
-              esModule: false,
-            },
+            options: { name: 'static-[contenthash].[ext]', esModule: false },
           },
         ],
       },
