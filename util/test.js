@@ -11,7 +11,7 @@ const red = '\x1b[31m'
 const green = '\x1b[32m'
 const yellow = '\x1b[33m'
 
-const filepath = path.resolve(__dirname, 'src', 'main.md')
+const filepath = path.resolve(__dirname, '..', 'src', 'main.md')
 fs.readFile(filepath, (err, data) => {
   if (err) {
     throw err
