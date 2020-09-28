@@ -9,6 +9,7 @@ module.exports = {
   output: {
     filename: 'static-[hash].js',
     path: path.resolve(__dirname, '../public'),
+    publicPath: '/',
   },
   module: {
     rules: [
