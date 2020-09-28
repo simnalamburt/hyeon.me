@@ -1,9 +1,5 @@
 on: [push, pull_request]
 
-defaults:
-  run:
-    working-directory: client
-
 jobs:
   test:
     runs-on: ubuntu-latest
