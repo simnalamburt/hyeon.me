@@ -7,32 +7,21 @@ module.exports = {
   output: {
     filename: 'static-[contenthash].js',
     assetModuleFilename: 'static-[contenthash][ext][query]',
-    publicPath: '/',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
   module: {
     rules: [
+      { test: /\.tsx?$/i, use: 'ts-loader' },
+      { test: /\.md$/i, use: ['html-loader', 'markdown-loader'] },
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.md$/,
-        use: [{ loader: 'html-loader' }, { loader: 'markdown-loader' }],
-      },
-      {
-        test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
+        test: /\.(jpg|png|woff2?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/i,
         type: 'asset/resource',
       },
+      { test: /\.css$/i, use: [MiniCssExtractPlugin.loader, 'css-loader'] },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
-      },
-      {
-        test: /\.scss$/,
+        test: /\.scss$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
     ],
