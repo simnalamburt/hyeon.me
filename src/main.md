@@ -117,7 +117,6 @@ Experience
       - [svn-explorer](https://github.com/simnalamburt/svn-explorer),
         dead-simple svn repository explorer
     - Python <small>Flask, SQLAlchemy</small>
-      - [snu.jokbo.me], issue sharing service <i class=private></i>
       - [cloudkeeper], IRCCloud reverse engineering
       - [pipenv](https://github.com/pypa/pipenv) contribution:
         [#228](https://github.com/pypa/pipenv/issues/228)
@@ -248,18 +247,16 @@ Featured works
     - [simnalamburt/snucse](https://github.com/simnalamburt/snucse) <small>Note takings</small>
     - [simnalamburt/snippets](https://github.com/simnalamburt/snippets) <small>Small code snippets</small>
 
-[cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
-[hwp2pdf]: https://github.com/simnalamburt/hwp2pdf
-[rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
-
 &nbsp;
 
 --------
 
-<small style="display: block"><span id=license>[AGPLv3 License]</span>
-  <span id=quote>Things are beautiful if you love them. ― _[Jean Anouilh]_</span>
-</small>
+<small style="display: block">[AGPLv3 License]</small>
 
+
+[cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
+[hwp2pdf]: https://github.com/simnalamburt/hwp2pdf
+[rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
 [DEVSISTERS]: https://www.devsisters.com/
 [PATI Games]: https://patigames.com/
 [ISMS]: https://isms.kisa.or.kr/main/
