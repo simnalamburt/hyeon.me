@@ -82,8 +82,8 @@ header {
 
         // Use smaller profile picture on small screen
         @media ($mobile) {
-          width: 83px;
-          height: 83px;
+          width: 53px;
+          height: 53px;
           margin-right: 15px;
           border-radius: 100%;
         }
@@ -95,13 +95,6 @@ header {
     flex-grow: 1;
     & h1 {
       border-color: #d4d4d4;
-    }
-
-    // Do not display Korean name on small screen
-    @media ($mobile) {
-      & > h1 > small {
-        display: none;
-      }
     }
   }
 }
@@ -158,24 +151,9 @@ header {
       display: none;
     }
   }
-
-  & #quote {
-    float: right;
-  }
-
-  // Do not display license info on small screen
-  @media ($mobile) {
-    & #license {
-      display: none;
-    }
-  }
 }
 
 // CSS rules for printer
 @page {
   size: A4 portrait;
-}
-
-#main > h2 {
-  page-break-before: always;
 }
