@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   output: {
     filename: 'static-[contenthash].js',
+    assetModuleFilename: 'static-[contenthash][ext][query]',
     publicPath: '/',
   },
   resolve: {
@@ -24,13 +25,7 @@ module.exports = {
       },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
-        dependency: { not: ['url'] },
-        use: [
-          {
-            loader: 'file-loader',
-            options: { name: 'static-[contenthash].[ext]' },
-          },
-        ],
+        type: 'asset/resource',
       },
       {
         test: /\.css$/,

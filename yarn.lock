@@ -62,7 +62,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.5":
+"@types/json-schema@npm:*":
   version: 7.0.6
   resolution: "@types/json-schema@npm:7.0.6"
   checksum: 820cabe35ac915b93e38b0c01957e5c49d7d9f69251dddfbf39af0ff4fe24f6e08b39e55603e0d212dea7bcaa383b1218b58a738d1c02013dc22df06547ff238
@@ -306,7 +306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^6.12.3, ajv@npm:^6.12.4":
+"ajv@npm:^6.12.3":
   version: 6.12.5
   resolution: "ajv@npm:6.12.5"
   dependencies:
@@ -991,18 +991,6 @@ __metadata:
   version: 1.0.12
   resolution: "fastest-levenshtein@npm:1.0.12"
   checksum: aa3c45b6c9d0993c41fed6d637cb9c3bc03d968bec21b66b85a6a294ab25b613cf71dd501f9a7b35853e61d4f0e407242c8b26033351c77e14161af9e950559b
-  languageName: node
-  linkType: hard
-
-"file-loader@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "file-loader@npm:6.1.0"
-  dependencies:
-    loader-utils: ^2.0.0
-    schema-utils: ^2.7.1
-  peerDependencies:
-    webpack: ^4.0.0 || ^5.0.0
-  checksum: ad930c9e7fa8c85cc048afa44c370c86f6a9ba89149b2b24e362f0b279595a05d039211263bf65117e4850f337f9bff251288ddff426dda997468a00e1268ffc
   languageName: node
   linkType: hard
 
@@ -2285,7 +2273,6 @@ resolve@^1.9.0:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     css-loader: ^5
-    file-loader: ^6.1.0
     font-awesome: ^4.5.0
     github-markdown-css: ^4.0.0
     html-loader: ^2
@@ -2355,17 +2342,6 @@ resolve@^1.9.0:
   bin:
     sass: sass.js
   checksum: edcc6127cdf8cc3640dc25f10e641daf5edf0ae853edaf87f948fbdf450743b500521cac77d7952cab87e0cba7b09c71912febde6974f821a1bc0f4905332a4a
-  languageName: node
-  linkType: hard
-
-"schema-utils@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "schema-utils@npm:2.7.1"
-  dependencies:
-    "@types/json-schema": ^7.0.5
-    ajv: ^6.12.4
-    ajv-keywords: ^3.5.2
-  checksum: 3851bcc7e44a3f35d3ca96e460c598aa24cec9fe395b196395316a043dc111d25735a9a49b1a115e4b52d5ed0d8bbcfb9fe1bfd077610f192b613e020d3f3ef2
   languageName: node
   linkType: hard
 
