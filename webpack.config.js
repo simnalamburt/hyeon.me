@@ -24,6 +24,7 @@ module.exports = {
       },
       {
         test: /\.(?:jpg|png|(?:woff2?|ttf|eot|svg)(?:\?v=[0-9]\.[0-9]\.[0-9])?)$/,
+        dependency: { not: ['url'] },
         use: [
           {
             loader: 'file-loader',
