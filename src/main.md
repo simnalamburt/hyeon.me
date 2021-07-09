@@ -1,7 +1,3 @@
-<div align=center><a href="https://github.com/simnalamburt"><img src="img/streak.png"></a></div>
-
-> Open source contributions: **2,919 total** in year 2016
-
 ### Curriculum vitae
 - <small>2017 - 2019</small> [DEVSISTERS]
   - Cloud Infrastructure Team

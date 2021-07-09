@@ -1,6 +1,5 @@
 Hyeon Kim <small>김지현</small>
 ========
-> Natural Born Developer
 
 <small><a href="https://github.com/simnalamburt"><i class="fab fa-lg fa-github"></i></a>
 <a href="https://www.facebook.com/simnalamburt"><i class="fab fa-lg fa-facebook-square"></i></a>
