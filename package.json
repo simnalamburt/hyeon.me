@@ -22,7 +22,8 @@
     "webpack-cli": "^4"
   },
   "dependencies": {
-    "font-awesome": "^4.5.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "github-markdown-css": "^4.0.0",
     "normalize.css": "^8.0.0"
   },

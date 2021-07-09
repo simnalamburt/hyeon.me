@@ -198,7 +198,7 @@ Featured works
 
 -   &nbsp;
 
-    ###### <i class="fa fa-github"></i> Please visit my [GitHub] profile to see more works!
+    ###### <i class="fab fa-github"></i> Please visit my [GitHub] profile to see more works!
 
     - [simnalamburt/snucse](https://github.com/simnalamburt/snucse) <small>Note takings</small>
     - [simnalamburt/snippets](https://github.com/simnalamburt/snippets) <small>Small code snippets</small>

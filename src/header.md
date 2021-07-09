@@ -2,9 +2,9 @@ Hyeon Kim <small>김지현</small>
 ========
 > Natural Born Developer
 
-<small><a class="fa fa-lg fa-github" href="https://github.com/simnalamburt"></a>
-<a class="fa fa-lg fa-facebook-official" href="https://www.facebook.com/simnalamburt"></a>
-<a class="fa fa-lg fa-twitter" href="https://twitter.com/simnalamburt"></a>
+<small><a href="https://github.com/simnalamburt"><i class="fab fa-lg fa-github"></i></a>
+<a href="https://www.facebook.com/simnalamburt"><i class="fab fa-lg fa-facebook-square"></i></a>
+<a href="https://twitter.com/simnalamburt"><i class="fab fa-lg fa-twitter"></i></a>
 &nbsp;<simnalamburt@gmail.com> \
 [keybase] | [gem] | [npm] | [Speaker Deck] \
 [한국 러스트 사용자 그룹] | [한국 하스켈 모임] \
