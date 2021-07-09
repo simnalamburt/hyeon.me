@@ -5,8 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   output: {
-    filename: 'static-[contenthash].js',
-    assetModuleFilename: 'static-[contenthash][ext][query]',
+    filename: 'static/[contenthash].js',
+    assetModuleFilename: 'static/[contenthash][ext][query]',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'static-[contenthash].css',
+      filename: 'static/[contenthash].css',
     }),
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],

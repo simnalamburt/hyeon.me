@@ -7,5 +7,5 @@
 /.pnp.*
 
 # Webpack
-/dist/static-*
+/dist/static/
 /dist/index.html
