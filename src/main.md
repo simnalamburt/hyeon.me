@@ -7,18 +7,16 @@
   - Created an abusing detection system of Cookie Wars
 - <small>2016</small> [PATI Games]
   - DevOps
-  - Server administrator of [아이러브니키]
-  - [ISMS] 심사 대응팀
+  - Server administrator of Mobile game, "[아이러브니키]"
+  - [K-ISMS] certification preparation team
 - <small>2014</small> [Byline]
   - Starting Member
   - Main developer, server administrator
-- <small>2013 - 2021 (8월 졸업 예정)</small> [Seoul National University, Seoul, Korea][snu]
-  - B.S. Student
+- <small>2013 - 2021</small> [Seoul National University, Seoul, Korea][snu]
+  - BSc Compuer Science Candidate in August 2021
   - Major in [Computer Science and Engineering][cse]
   - [Server administrator of SNU Dept. of CSE][bacchus]
   - Server administrator of [UPnL]
-- <small>2010 - 2013</small> 경기과학고등학교
-  - <small>2011</small> 한국정보올림피아드 공모대회 동상
 
 &nbsp;
 
@@ -259,7 +257,7 @@ Featured works
 [rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
 [DEVSISTERS]: https://www.devsisters.com/
 [PATI Games]: https://patigames.com/
-[ISMS]: https://isms.kisa.or.kr/main/
+[K-ISMS]: https://isms.kisa.or.kr/main/
 [아이러브니키]: https://patigames.com/games/8
 [Byline]: https://byline.com/
 [snu]: http://en.snu.ac.kr/
