@@ -13,8 +13,7 @@
   - Starting Member
   - Main developer, server administrator
 - <small>2013 - 2021</small> [Seoul National University, Seoul, Korea][snu]
-  - Bachelor of Science in Computer Science and Engineering
-  - Major in [Computer Science and Engineering][cse]
+  - Bachelor of Science in [Computer Science and Engineering][cse]
   - [Server administrator of SNU Dept. of CSE][bacchus]
   - Server administrator of [UPnL]
 
