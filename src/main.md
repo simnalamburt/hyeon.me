@@ -74,6 +74,7 @@ Experience
       virtual MFA CLI for AWS
     - [Implemented](https://github.com/zsh-users/zsh-completions/pull/773) autocompletion for mssh
     - ❤️ packaging ❤️
+      - [homebrew-x](https://github.com/simnalamburt/homebrew-x), My homebrew packages including podman and qemu patched for Apple Silicon
       - [awscliv2.appimage](https://github.com/simnalamburt/awscliv2.appimage),
         AWS CLI v2 packaged into a single file using [AppImage](https://appimage.org)
       - [pnpm.appimage](https://github.com/simnalamburt/pnpm.appimage),
