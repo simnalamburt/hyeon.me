@@ -1,18 +1,20 @@
 ### Curriculum vitae
-- <small>2017 - 2019</small> [DEVSISTERS]
+- <small>2021 Sep - now</small> [i'mport]
+  - Cloud Infrastrueture Team
+- <small>2017 Jul - 2019 Nov</small> [DEVSISTERS]
   - Cloud Infrastructure Team
   - Created & Managed internal cloud infrastructure
   - Created & Managed game production infrastructure
   - Created [Devsisters tech blog](https://tech.devsisters.com/)
   - Created an abusing detection system of Cookie Wars
-- <small>2016</small> [PATI Games]
+- <small>2016 Jul - 2016 Nov</small> [PATI Games]
   - DevOps
   - Server administrator of Mobile game, "[아이러브니키]"
   - [K-ISMS] certification preparation team
-- <small>2014</small> [Byline]
+- <small>2014 Mar - 2014 Nov</small> [Byline]
   - Starting Member
   - Main developer, server administrator
-- <small>2013 - 2021</small> [Seoul National University, Seoul, Korea][snu]
+- <small>2013 Mar - 2021 Aug</small> [Seoul National University, Seoul, Korea][snu]
   - Bachelor of Science in [Computer Science and Engineering][cse]
   - [Server administrator of SNU Dept. of CSE][bacchus]
   - Server administrator of [UPnL]
@@ -255,6 +257,7 @@ Featured works
 [cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
 [hwp2pdf]: https://github.com/simnalamburt/hwp2pdf
 [rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
+[i'mport]: https://www.iamport.kr/
 [DEVSISTERS]: https://www.devsisters.com/
 [PATI Games]: https://patigames.com/
 [K-ISMS]: https://isms.kisa.or.kr/main/
