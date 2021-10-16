@@ -7,7 +7,7 @@
     "fmt": "prettier --write ."
   },
   "devDependencies": {
-    "css-loader": "^5",
+    "css-loader": "^6",
     "html-loader": "^2",
     "html-webpack-plugin": "^5",
     "markdown-loader": "^6",
