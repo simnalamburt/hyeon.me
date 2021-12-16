@@ -1,6 +1,6 @@
 ### Curriculum vitae
 - <small>2021 Sep - now</small> [i'mport]
-  - Cloud Infrastrueture Team
+  - Head of Infrastructure Engineering
 - <small>2017 Jul - 2019 Nov</small> [DEVSISTERS]
   - Cloud Infrastructure Team
   - Created & Managed internal cloud infrastructure
