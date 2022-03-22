@@ -3,7 +3,7 @@
   - Head of Infrastructure Engineering
 - <small>2017 Jul - 2019 Nov</small> [DEVSISTERS]
   - Cloud Infrastructure Team
-  - Created & Managed internal cloud infrastructure
+  - Created & Managed internal Kubernetes infrastructure
   - Created & Managed game production infrastructure
   - Created [Devsisters tech blog](https://tech.devsisters.com/)
   - Created an abusing detection system of Cookie Wars
