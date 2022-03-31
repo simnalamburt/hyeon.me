@@ -43,7 +43,11 @@ $padding: 20px;
 $mobile: unquote('max-width: 600px');
 $not-mobile: unquote('min-width: 601px');
 // Use smaller font in small screen
-@media ($mobile) { .markdown-body { font-size: 14px; } }
+@media ($mobile) {
+  .markdown-body {
+    font-size: 14px;
+  }
+}
 
 @mixin background($body-bg, $header-bg) {
   // Color of scroll bounce area
@@ -51,11 +55,19 @@ $not-mobile: unquote('min-width: 601px');
     background: linear-gradient($body-bg 50%, $header-bg 50%) repeat;
     background-color: $header-bg;
   }
-  body { background: $body-bg; }
-  header { background: $header-bg; }
+  body {
+    background: $body-bg;
+  }
+  header {
+    background: $header-bg;
+  }
 }
-@media (prefers-color-scheme: dark) { @include background(#0d1117, #282b30); }
-@media (prefers-color-scheme: light) { @include background(#fff, #eee); }
+@media (prefers-color-scheme: dark) {
+  @include background(#0d1117, #282b30);
+}
+@media (prefers-color-scheme: light) {
+  @include background(#fff, #eee);
+}
 
 header {
   & > div {
