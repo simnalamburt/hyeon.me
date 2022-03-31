@@ -43,17 +43,8 @@ $padding: 20px;
 $header-color: #eee;
 $mobile: unquote('max-width: 600px');
 $not-mobile: unquote('min-width: 601px');
-
-@media ($mobile) {
-  // Hide github corner on small screen
-  .github-corner {
-    display: none;
-  }
-  // Use smaller font in small screen
-  .markdown-body {
-    font-size: 14px;
-  }
-}
+// Use smaller font in small screen
+@media ($mobile) { .markdown-body { font-size: 14px; } }
 
 header {
   background: $header-color;
