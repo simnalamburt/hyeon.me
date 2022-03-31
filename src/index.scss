@@ -40,15 +40,24 @@ i.oh-no::after {
 // Layout
 $pagesize: 920px;
 $padding: 20px;
-$header-color: #eee;
 $mobile: unquote('max-width: 600px');
 $not-mobile: unquote('min-width: 601px');
 // Use smaller font in small screen
 @media ($mobile) { .markdown-body { font-size: 14px; } }
 
-header {
-  background: $header-color;
+@mixin background($body-bg, $header-bg) {
+  // Color of scroll bounce area
+  html {
+    background: linear-gradient($body-bg 50%, $header-bg 50%) repeat;
+    background-color: $header-bg;
+  }
+  body { background: $body-bg; }
+  header { background: $header-bg; }
+}
+@media (prefers-color-scheme: dark) { @include background(#0d1117, #282b30); }
+@media (prefers-color-scheme: light) { @include background(#fff, #eee); }
 
+header {
   & > div {
     max-width: $pagesize;
     margin: 0 auto;
@@ -60,7 +69,6 @@ header {
     }
 
     & > a {
-      background: $header-color;
       @media ($mobile) {
         float: left;
       }
@@ -83,6 +91,7 @@ header {
   }
 
   & #header {
+    background: transparent;
     flex-grow: 1;
     & h1 {
       border-color: #d4d4d4;
@@ -94,6 +103,7 @@ header {
   max-width: $pagesize;
   margin: 0 auto;
   padding: 20px $padding 100px;
+  background: transparent;
 
   & #featured-works {
     margin-bottom: 0;
