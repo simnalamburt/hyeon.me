@@ -89,7 +89,7 @@ Experience
         filebench packaged for Debian
       - [simnalamburt/PKGBUILD](https://github.com/simnalamburt/PKGBUILD),
         My arch linux packages
-      - [Packaged various windows apps](https://github.com/lukesampson/scoop-extras/pulls?q=author%3Asimnalamburt) using scoop
+      - [Packaged various windows apps](https://github.com/ScoopInstaller/Extras/pulls?q=author%3Asimnalamburt) using scoop
 
 - #### Web <small>React, Vue, ... *13*</small>
     - Modern web frontend experience <small>ES2021, CSS4, Babel, ...</small>
@@ -111,7 +111,7 @@ Experience
 - #### Software Engineering <small>*04*</small>
     - Ruby <small>Rails, sinatra, unicorn</small>
       - [kollus-ruby](https://github.com/simnalamburt/kollus-ruby),
-        [Kollus](https://kollus.com) media API reverse engineering
+        [Kollus](https://www.catenoid.net/) media API reverse engineering
       - [daumdic-ruby](https://github.com/simnalamburt/daumdic-ruby),
         simple daum dictionary crawler library
       - [svn-explorer](https://github.com/simnalamburt/svn-explorer),
@@ -123,9 +123,9 @@ Experience
         [#238](https://github.com/pypa/pipenv/pull/238)
     - Node.js
       - node-kakao, KakaoTalk protocol reverse engineering <i class=private></i>
-      - [xsalsa20-csprng](https://github.com/simnalamburt/npm/tree/master/packages),
+      - [xsalsa20-csprng](https://github.com/simnalamburt/npm/tree/main/packages),
         CSPRNG and crypto library powered by XSalsa20
-      - [hangul-josa](https://github.com/simnalamburt/npm/tree/master/packages/hangul-josa),
+      - [hangul-josa](https://github.com/simnalamburt/npm/tree/main/packages/hangul-josa),
         modern Hangul josa handling library
       - [slate/slate-irc](https://github.com/slate/slate-irc), IRC client
         library made to replace
@@ -187,7 +187,7 @@ Experience
     - An Infinitely Large Napkin, the math textbook
         [contribution](https://github.com/vEnhance/napkin/pulls?q=author%3Asimnalamburt)
 
-[`mm_malloc()`]: https://github.com/simnalamburt/snucse/tree/master/System%20Programming/malloclab
+[`mm_malloc()`]: https://github.com/simnalamburt/snucse/tree/main/System%20Programming/malloclab
 [Intel TBB]: https://github.com/oneapi-src/oneTBB
 [simnalamburt/obj-rs]: https://github.com/simnalamburt/obj-rs
 [Wavefront .obj file]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
@@ -259,11 +259,11 @@ Featured works
 [rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
 [CHAI Corporation]: https://chai.finance/
 [DEVSISTERS]: https://www.devsisters.com/
-[PATI Games]: https://patigames.com/
+[PATI Games]: https://nexturecorp.com/
 [K-ISMS]: https://isms.kisa.or.kr/main/
-[아이러브니키]: https://patigames.com/games/8
+[아이러브니키]: https://nexturecorp.com/games/8
 [Byline]: https://byline.com/
-[snu]: http://en.snu.ac.kr/
+[snu]: https://en.snu.ac.kr/
 [cse]: http://cse.snu.ac.kr/en
 [bacchus]: https://bacchus.snucse.org/about/
 [UPnL]: https://upnl.org/
