@@ -28,13 +28,13 @@ i.private::after {
   @include my-badge;
   content: 'PRIVATE';
   color: #a1882b;
-  background-color: #ffefc6;
+  background: #ffefc6;
 }
 i.oh-no::after {
   @include my-badge;
   content: 'OH NO';
   color: #702ba1;
-  background-color: #eac6ff;
+  background: #eac6ff;
 }
 
 // Layout
