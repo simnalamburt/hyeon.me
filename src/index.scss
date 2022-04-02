@@ -60,6 +60,9 @@ $not-mobile: unquote('min-width: 601px');
   }
   header {
     background: $header-bg;
+    & > div > a {
+      background: $header-bg;
+    }
   }
 }
 @media (prefers-color-scheme: dark) {
