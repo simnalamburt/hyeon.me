@@ -4,7 +4,7 @@
 !/.yarn/plugins
 !/.yarn/sdks
 !/.yarn/versions
-/.pnp.*
+/node_modules
 
 # Webpack
 /dist/static/
