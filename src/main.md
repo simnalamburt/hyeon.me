@@ -1,6 +1,15 @@
 ### Curriculum vitae
-- <small>2021 Sep - now</small> [i'mport]
+- <small>2022 Dec - now</small> [i'mport]
+  - VP of Engineering
+- <small>2021 Sep - 2022 Dec</small> [i'mport]
   - Head of Infrastructure Engineering
+  - Improved monthly SLO of legacy system from 95% to 99.995%
+  - Created istio based Kubernetes infrastructure for new MSA system
+  - Created Argo based automated ChatOps/CD system
+  - Created Keycloak based central IdP for internal usage
+  - Created Kafka based message passing webhook handling system
+  - <small>(ongoing)</small> Data-driven anomaly detection system
+  - etc
 - <small>2017 Jul - 2019 Nov</small> [DEVSISTERS]
   - Cloud Infrastructure Team
   - Created & Managed internal Kubernetes infrastructure
