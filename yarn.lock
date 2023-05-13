@@ -5,15 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@babel/runtime@npm:^7.3.1":
-  version: 7.21.5
-  resolution: "@babel/runtime@npm:7.21.5"
-  dependencies:
-    regenerator-runtime: ^0.13.11
-  checksum: 358f2779d3187f5c67ad302e8f8d435412925d0b991d133c7d4a7b1ddd5a3fda1b6f34537cb64628dfd96a27ae46df105bed3895b8d754b88cacdded8d1129dd
-  languageName: node
-  linkType: hard
-
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -791,13 +782,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^2.5.0":
-  version: 2.6.12
-  resolution: "core-js@npm:2.6.12"
-  checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -1311,6 +1295,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html5parser@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "html5parser@npm:2.0.2"
+  dependencies:
+    tslib: ^2.2.0
+  checksum: a651c915756deb8ec4007257b38d75ab375ee01718ffbd037d237e585852564c9d660efed51ed278e64f3f24ceb712e45085cbb82786b93a92dc21a7b36c3eeb
+  languageName: node
+  linkType: hard
+
 "htmlparser2@npm:^6.1.0":
   version: 6.1.0
   resolution: "htmlparser2@npm:6.1.0"
@@ -1656,7 +1649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.0.12":
+"marked@npm:^4, marked@npm:^4.0.12":
   version: 4.3.0
   resolution: "marked@npm:4.3.0"
   bin:
@@ -2164,13 +2157,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"punycode@npm:1.4.1":
-  version: 1.4.1
-  resolution: "punycode@npm:1.4.1"
-  checksum: fa6e698cb53db45e4628559e557ddaf554103d2a96a1d62892c8f4032cd3bc8871796cae9eabc1bc700e2b6677611521ce5bb1d9a27700086039965d0cf34518
-  languageName: node
-  linkType: hard
-
 "punycode@npm:^2.1.0":
   version: 2.3.0
   resolution: "punycode@npm:2.3.0"
@@ -2213,13 +2199,6 @@ __metadata:
   dependencies:
     resolve: ^1.20.0
   checksum: ad3caed8afdefbc33fbc30e6d22b86c35b3d51c2005546f4e79bcc03c074df804b3640ad18945e6bef9ed12caedc035655ec1082f64a5e94c849ff939dc0a788
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.13.11":
-  version: 0.13.11
-  resolution: "regenerator-runtime@npm:0.13.11"
-  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
@@ -2320,14 +2299,15 @@ __metadata:
     github-markdown-css: ^5.1.0
     html-loader: ^4
     html-webpack-plugin: ^5.5.0
+    html5parser: ^2.0.2
     markdown-loader: ^8.0.0
+    marked: ^4
     mini-css-extract-plugin: ^2.6.0
     normalize.css: ^8.0.1
     prettier: ^2.6.1
     sass: ^1.49.10
     sass-loader: ^13
     ts-loader: ^9.2.8
-    twitter-text: ^3.1.0
     typescript: ^5
     webpack: ^5.76.0
     webpack-cli: ^5
@@ -2664,29 +2644,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3":
+"tslib@npm:^2.0.3, tslib@npm:^2.2.0":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
-  languageName: node
-  linkType: hard
-
-"twemoji-parser@npm:^11.0.2":
-  version: 11.0.2
-  resolution: "twemoji-parser@npm:11.0.2"
-  checksum: 79075c6512253f17713f236c4853dccdcc9c5a6c2d15b0109c02d684402a21ccdd80352e490cdf76072fe2c09c7c288e501ed41185ebef69df69fe355f9b7c37
-  languageName: node
-  linkType: hard
-
-"twitter-text@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "twitter-text@npm:3.1.0"
-  dependencies:
-    "@babel/runtime": ^7.3.1
-    core-js: ^2.5.0
-    punycode: 1.4.1
-    twemoji-parser: ^11.0.2
-  checksum: 1ba9481f292bd34f7b73fbec60f7705061c1054a899f26e060d74dd473c9dbcad81247a1e25174c43c4a6c4f2957d1b46d55353bdcfc5e9c195ac07ee0e8631f
   languageName: node
   linkType: hard
 
