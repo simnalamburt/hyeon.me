@@ -201,7 +201,6 @@ Experience
 [simnalamburt/obj-rs]: https://github.com/simnalamburt/obj-rs
 [Wavefront .obj file]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
 [xmath]: https://github.com/simnalamburt/xmath
-[Rust]: https://www.rust-lang.org
 
 &nbsp;
 
@@ -283,5 +282,4 @@ Featured works
 [sr]: https://github.com/simnalamburt/SoftwareRasterizer
 [fo]: https://github.com/simnalamburt/FateOne
 [dotfiles]: https://github.com/simnalamburt/.dotfiles
-[Jean Anouilh]: https://en.wikipedia.org/wiki/Jean_Anouilh
 [AGPLv3 License]: https://github.com/simnalamburt/hyeon.me/blob/main/LICENSE
