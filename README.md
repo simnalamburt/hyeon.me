@@ -3,12 +3,12 @@
 My personal webpage.
 
 ```bash
-yarn
-yarn build
-yarn dev
+pnpm install
+pnpm build
+pnpm dev
 
-yarn test
-yarn fmt
+pnpm test
+pnpm fmt
 
 node util/check_links.mjs
 ```
