@@ -31,5 +31,5 @@
     "semi": false,
     "singleQuote": true
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.5.1"
 }
