@@ -1,7 +1,7 @@
 ### Curriculum vitae
-- <small>2022 Dec - now</small> [i'mport]
+- <small>2022 Dec - now</small> [PortOne]
   - VP of Engineering
-- <small>2021 Sep - 2022 Dec</small> [i'mport]
+- <small>2021 Sep - 2022 Dec</small> [PortOne]
   - Head of Infrastructure Engineering
   - Improved monthly SLO of legacy system from 95% to 99.995%
   - Created istio based Kubernetes infrastructure for new MSA system
@@ -266,7 +266,7 @@ Featured works
 [cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
 [hwp2pdf]: https://github.com/simnalamburt/hwp2pdf
 [rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
-[i'mport]: https://www.iamport.kr/
+[PortOne]: https://portone.io/
 [DEVSISTERS]: https://www.devsisters.com/
 [PATI Games]: https://nexturecorp.com/
 [K-ISMS]: https://isms.kisa.or.kr/main/
