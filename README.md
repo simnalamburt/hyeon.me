@@ -10,7 +10,7 @@ yarn dev
 yarn test
 yarn fmt
 
-yarn node util/test.js
+node util/check_links.mjs
 ```
 
 &nbsp;
