@@ -1,5 +1,5 @@
 ### Curriculum vitae
-- <small>2022 Dec - 2022 Jul</small> [PortOne]
+- <small>2022 Dec - 2024 Jul</small> [PortOne]
   - VP of Engineering
 - <small>2021 Sep - 2022 Dec</small> [PortOne]
   - Head of Infrastructure Engineering
