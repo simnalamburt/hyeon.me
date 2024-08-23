@@ -1,5 +1,5 @@
 ### Curriculum vitae
-- <small>2024 Jul - present</small> Contents Technologies
+- <small>2024 Jul - present</small> [Contents Technologies]
   - VP of Engineering
 - <small>2022 Dec - 2024 Jul</small> [PortOne]
   - VP of Engineering
@@ -29,6 +29,17 @@
   - Bachelor of Science in [Computer Science and Engineering][cse]
   - [Server administrator of SNU Dept. of CSE][bacchus]
   - Server administrator of [UPnL]
+
+[Contents Technologies]: https://contentstech.com/
+[PortOne]: https://portone.io/
+[DEVSISTERS]: https://www.devsisters.com/
+[PATI Games]: https://nexturecorp.com/
+[아이러브니키]: https://nexturecorp.com/games?num=8
+[Byline]: https://byline.com/
+[snu]: https://en.snu.ac.kr/
+[cse]: http://cse.snu.ac.kr/en
+[bacchus]: https://bacchus.snucse.org/about/
+[UPnL]: https://upnl.org/
 
 &nbsp;
 
@@ -263,20 +274,10 @@ Featured works
 
 <small style="display: block">[AGPLv3 License]</small>
 
-
 [cloudkeeper]: https://github.com/simnalamburt/cloudkeeper
 [hwp2pdf]: https://github.com/simnalamburt/hwp2pdf
 [rust-pragmatic-segmenter]: https://github.com/simnalamburt/rust-pragmatic-segmenter
-[PortOne]: https://portone.io/
-[DEVSISTERS]: https://www.devsisters.com/
-[PATI Games]: https://nexturecorp.com/
 [K-ISMS]: https://isms.kisa.or.kr/main/
-[아이러브니키]: https://nexturecorp.com/games/8
-[Byline]: https://byline.com/
-[snu]: https://en.snu.ac.kr/
-[cse]: http://cse.snu.ac.kr/en
-[bacchus]: https://bacchus.snucse.org/about/
-[UPnL]: https://upnl.org/
 [GitHub]: https://github.com/simnalamburt
 [obj-rs]: https://github.com/simnalamburt/obj-rs
 [node.js]: https://nodejs.org/
