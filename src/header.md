@@ -1,4 +1,4 @@
-Hyeon Kim <small>김지현</small>
+Jihyeon Kim <small>김지현</small>
 ========
 
 [<i class="fab fa-lg fa-github"></i>](https://github.com/simnalamburt)
