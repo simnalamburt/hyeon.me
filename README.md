@@ -8,7 +8,7 @@ pnpm build
 pnpm dev
 
 pnpm test
-pnpm fmt
+pnpm fix
 
 node util/check_links.mjs
 ```
