@@ -1,3 +1,5 @@
+@use "sass:string";
+
 // Always use border-box
 * {
   box-sizing: border-box;
@@ -40,8 +42,8 @@ i.oh-no::after {
 // Layout
 $pagesize: 920px;
 $padding: 20px;
-$mobile: unquote('max-width: 600px');
-$not-mobile: unquote('min-width: 601px');
+$mobile: string.unquote('max-width: 600px');
+$not-mobile: string.unquote('min-width: 601px');
 // Use smaller font in small screen
 @media ($mobile) {
   .markdown-body {
