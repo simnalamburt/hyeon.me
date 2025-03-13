@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
-import { parse as compile } from 'marked'
 import { parse, walk } from 'html5parser'
+import { parse as compile } from 'marked'
 
 const reset = '\x1b[0m'
 const red = '\x1b[31m'
@@ -48,8 +48,8 @@ async function forEachUrl(url) {
       200 <= stat && stat < 300
         ? green
         : 100 <= stat && stat < 400
-        ? yellow
-        : red
+          ? yellow
+          : red
     console.log(`${c}${stat}   - ${url} (${res.statusText})${reset}`)
   } catch (e) {
     console.log(`${red}ERROR - ${url} (${e})${reset}`)

@@ -1,11 +1,11 @@
 import header from './header.md'
-import main from './main.md'
 import profile from './img/profile.jpg'
+import main from './main.md'
 
-import { library, dom } from '@fortawesome/fontawesome-svg-core'
+import { dom, library } from '@fortawesome/fontawesome-svg-core'
 import {
-  faGithub,
   faFacebookSquare,
+  faGithub,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -15,9 +15,17 @@ import 'github-markdown-css/github-markdown.css'
 import './index.scss'
 
 // Render markdown
-;(document.getElementById('me') as HTMLImageElement).src = profile
-document.getElementById('header')!.innerHTML = header
-document.getElementById('main')!.innerHTML = main
+const domMe = document.getElementById('me') as HTMLImageElement | undefined
+const domHeader = document.getElementById('header')
+const domMain = document.getElementById('main')
+
+if (domMe == null || domHeader == null || domMain == null) {
+  throw new Error('Element not found')
+}
+
+domMe.src = profile
+domHeader.innerHTML = header
+domMain.innerHTML = main
 
 // Enable font awesome
 library.add(faGithub, faFacebookSquare, faTwitter)
