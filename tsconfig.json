@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2019",
-    "module": "esnext",
-    "lib": ["esnext", "dom", "dom.iterable"],
-    "jsx": "react",
+    "target": "esnext",
+    "module": "preserve",
+    "lib": ["esnext", "dom"],
+    // "noEmit": true,
+    "skipLibCheck": true,
 
     // Strict Typecheck
     "strict": true,
@@ -11,14 +12,14 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
 
     // Module
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "isolatedModules": true,
-    "forceConsistentCasingInFileNames": true,
-
-    // Advanced
-    "skipLibCheck": true
-  }
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["dist"]
 }
