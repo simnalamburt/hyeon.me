@@ -3,12 +3,12 @@
 My personal webpage.
 
 ```bash
-pnpm install
-pnpm build
-pnpm dev
+bun install
+bun run build
+bun dev
 
-pnpm test
-pnpm fix
+bun run test
+bun fix
 
 node util/check_links.mjs
 ```

@@ -28,5 +28,5 @@
     "github-markdown-css": "^5.8.1",
     "normalize.css": "^8.0.1"
   },
-  "packageManager": "pnpm@9.8.0"
+  "packageManager": "bun@1.2.8"
 }
